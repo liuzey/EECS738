@@ -1,2 +1,2 @@
 # EECS738
-eecs738 machine learning course projects
+EECS738 Machine Learning course projects by Zeyan Liu (KUID:3001190)
