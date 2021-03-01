@@ -71,3 +71,12 @@ Histograms are basic represenations of data frequency in bins of values.
 - [x] Commit your source code, documentation and other supporting files to the git repository in GitHub.
 
 ## Reference
+* Histogram - Wikipedia. https://en.wikipedia.org/wiki/Histogram
+* GaussianMixture - scikit-learn. https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html
+* KMeans - scikit-learn. https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
+* KernelDensity - scikit-learn. https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KernelDensity.html
+* Scikit-learn - Github. https://github.com/scikit-learn/scikit-learn/blob/a95203b/sklearn/mixture/gmm.py
+* https://medium.com/@analyttica/what-is-bayesian-information-criterion-bic-b3396a894be6
+* https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+* Matplotlib APIs. https://matplotlib.org/3.1.1/api/index.html
+* Pandas APIs. https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
