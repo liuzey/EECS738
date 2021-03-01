@@ -68,7 +68,7 @@ def statistics_overview(dataset):
 if __name__ == '__main__':
     data = load_data()
     print('\n-----Statistics & Plots-----')
-    # statistics_overview(data)
+    statistics_overview(data)
 
     print('\n-----Algorithm Begins-----')
     start = time.time()
