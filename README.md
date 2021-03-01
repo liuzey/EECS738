@@ -44,6 +44,7 @@ Results will be shown successively as follows:
 * Histograms, scattered matrix between features and box plots.
 * My algorithm results (including visualization).
 * Results (including some visualization) for comparison from scikit-learn.
+* In optimized KMeans and GMM, a graph of K with criterion will be given. A command input has to be given judged on 'elbow method'.
 
 ## Study 1: Zoo Dataset
 ### Histogram
@@ -51,22 +52,61 @@ Results will be shown successively as follows:
 * ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_hist.png)
 
 ### KNN
-* A data point is labelled by voting of k nearest neighbors in distance.
+* A data point is labelled by voting of K nearest neighbors in distance.
 * Euclidean metrics are used.
 * A quick glance at distribution:
-* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KNN_.png)
-* Accuracy when k=3: 19/21=90.48%
-* Results from scikit-learn when k=3: 19/21=90.48%
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KNN.png)
+* Accuracy when K=3: 19/21=90.48%.
+* Results using scikit-learn when K=3: 19/21=90.48%.
 
 ### Kernel Density Estimation
 * Fit each data point with a family of kernel functions. Stack functions together to represent the whole dataset.
 * Guassian kernels are used.
 * ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KDE_my.png)
-* Results from scikit-learn are the same. [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KDE_skl.png)
+* Results using scikit-learn are the same. [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KDE_skl.png)
 
 ### K-means Clustering
+* Assign each data point to the nearest cluster center. Centers are updated as average of data points in each cluster.
+* Errors are calculated as the sum of Euclidean distances.
+* When **--optimized=False**, K (number of clusters) is set at total number of labels mannually.
+* When **--optimized=True**, K is optimized across [1,9]. Elbow method is used to determine the best K.
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_my.png)
+* Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_skl.png).
 
 ### Gaussian Mixture Model
+* Several Gaussian distribution are used to represent the dataset. Each datapoint is assigned to the 'nearest distribution' based on posterior probability. Thus, data points following different distributions are clustered.
+* When **--optimized=False**, K (number of clusters) is set at total number of labels mannually.
+* When **--optimized=True**, K is optimized across [2,10]. Bayesian Information Criterion(BIC) is used to model performance and cost. Elbow method is used to determine the best K.
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_GMM_my.png)
+* Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_GMM_skl.png).
+
+## Study 2: Glass Dataset
+Settings aligns with Zoo Dataset.
+### Histogram
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_hist.png)
+
+### KNN
+* A quick glance at distribution:
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KNN.png)
+* Accuracy when K=3: 24/43=55.81%, K=8: 29/43=67.44%.
+* Results using scikit-learn when K=3: 26/43=60.47%, K=8: 29/43=67.44%.
+
+### Kernel Density Estimation
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KDE_my.png)
+* Results using scikit-learn are the same. [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KDE_skl.png)
+
+### K-means Clustering
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_my.png)
+* Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_skl.png).
+
+### Gaussian Mixture Model
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_my.png)
+* Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_skl.png).
+
+## Notes
+* KNN doesn't behave well for Glass Dataset. Reasons may be that the dataset is unbalanced.
+* Performance of KNN improves with K to avoid overfitting noises.
+
 
 
 ## Schedule
