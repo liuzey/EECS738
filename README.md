@@ -150,7 +150,7 @@ Settings aligns with Zoo Dataset.
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_skl.png).
 
 ## Notes
-* There are multiple features in each dataset. Thus, cluster graphs of every pair are not shown.
+* There are multiple features in each dataset. Thus, cluster graphs of every feature pair are not shown. Instead, clustering of every feature is shown.
 * KNN doesn't behave well for Glass Dataset. Reasons may be that the dataset is unbalanced.
 * Performance of KNN improves with K to avoid overfitting noises.
 * Optimized KMeans or GMM can be very time-consuming. [Here](https://github.com/liuzey/EECS738/blob/main/algorithms/gmm.py#L18) and [here](https://github.com/liuzey/EECS738/blob/main/algorithms/kmeans.py#L15) for modify settings. [Here](https://github.com/liuzey/EECS738/tree/main/saved_logs) for a quick view of training records.
