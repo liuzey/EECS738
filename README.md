@@ -2,7 +2,7 @@
 EECS738 Machine Learning course project1 by Zeyan Liu. Four methods are implemented: k-nearest neighbors (KNN), k-means clustering (KMEANS), kernel density estimation (KDE) and gaussian mixture model (GMM).
 
 ## Dataset
-All data comes from UCI Machine Learning on Kaggle. Specifically, two classification datasets are chosen:
+All data comes from UCI Machine Learning on Kaggle. Specifically, **two** classification datasets are chosen:
 * [Zoo Animal Classification.](https://www.kaggle.com/uciml/zoo-animal-classification)
 * [Glass Classification.](https://www.kaggle.com/uciml/glass)
 
@@ -39,7 +39,7 @@ python main.py glass KMEANS -k 7 -o False
 * Apply K_means algorithm to 'glass' dataset.
 * Number of clusters manually set at 7.
 
-### Results Display
+### Running Display
 Results will be shown successively as follows:
 * Histograms, scattered matrix between features and box plots.
 * My algorithm results (including visualization).
