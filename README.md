@@ -54,14 +54,15 @@ Results will be shown successively as follows:
 * A data point is labelled by voting of k nearest neighbors in distance.
 * Euclidean metrics are used.
 * A quick glance at distribution:
-* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KNN.png)
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KNN_.png)
 * Accuracy when k=3: 19/21=90.48%
 * Results from scikit-learn when k=3: 19/21=90.48%
 
 ### Kernel Density Estimation
-* Fit each data point with a family of kernel functions. Stack functions together to represent whole dataset.
+* Fit each data point with a family of kernel functions. Stack functions together to represent the whole dataset.
 * Guassian kernels are used.
-  ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KDE.png)
+* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KDE_my.png)
+* Results from scikit-learn are the same. [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KDE_skl.png)
 
 ### K-means Clustering
 
