@@ -97,7 +97,7 @@ python main.py zoo KMEANS -o 1
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_skl.png).
 
 ### Gaussian Mixture Model
-* Several Gaussian distribution are used to represent the dataset. Each datapoint is assigned to the 'nearest distribution' based on posterior probability. Thus, data points following different distributions are clustered.
+* Several Gaussian distribution are used to represent the dataset. Each datapoint is assigned to the 'nearest distribution' based on posterior probability. Parameters of the distributions are updated based on Expectation-Maximization(EM). Thus, data points following different distributions are clustered.
 * The best results are chosen among three different randomly-initialized setting.
 * Best log-likelihood: 35.26
 * Best log-likelihood by scikit-learn (lower bounds): 43.95 
