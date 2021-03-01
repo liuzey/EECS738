@@ -49,13 +49,15 @@ Results will be shown successively as follows:
 ## Study 1: Zoo Dataset
 ### Histogram
 * Histograms are basic represenations of data frequency in bins of values.
-* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_hist.png)
+
+![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_hist.png)
 
 ### KNN
 * A data point is labelled by voting of K nearest neighbors in distance.
 * Euclidean metrics are used.
 * A quick glance at distribution:
-* ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KNN.png)
+
+![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KNN.png)
 * Accuracy when K=3: 19/21=90.48%.
 * Results using scikit-learn when K=3: 19/21=90.48%.
 
