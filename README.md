@@ -41,20 +41,19 @@ python main.py glass KMEANS -k 7 -o False
 
 ### Results Display
 Results will be shown successively as follows:
-* 
-* 
-* 
+* Histograms, scattered matrix between features and box plots.
+* My algorithm results (including visualization).
+* Results (including some visualization) for comparison from scikit-learn.
 
-## Algorithms
-### Histograms
+## Histograms
 
-### K-Nearest Neighbors
+## K-Nearest Neighbors
 
-### K-means Clustering
+## K-means Clustering
 
-### Kernel Density Estimation
+## Kernel Density Estimation
 
-### Gaussian Mixture Model
+## Gaussian Mixture Model
 
 
 ## Schedule
