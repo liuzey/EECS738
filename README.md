@@ -45,20 +45,27 @@ Results will be shown successively as follows:
 * My algorithm results (including visualization).
 * Results (including some visualization) for comparison from scikit-learn.
 
-## Histograms
-Histograms are basic represenations of data frequency in bins of values.
-### Zoo
+## Zoo
+### Histogram
+* Histograms are basic represenations of data frequency in bins of values.
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_hist.png)
-### Glass
-![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_hist.png)
 
-## K-Nearest Neighbors
+### KNN
+* A data point is labelled by voting of k nearest neighbors in distance.
+* Euclidean metrics are used.
+* A quick glance at distribution:
+![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KNN.png)
+* Accuracy when k=3: 19/21=90.48%
+* Results from scikit-learn when k=3: 19/21=90.48%
 
-## K-means Clustering
+### Kernel Density Estimation
+* Fit each data point with a family of kernel functions. Stack functions together to represent whole dataset.
+* Guassian kernels are used.
+![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KDE.png)
 
-## Kernel Density Estimation
+### K-means Clustering
 
-## Gaussian Mixture Model
+### Gaussian Mixture Model
 
 
 ## Schedule
