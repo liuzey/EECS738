@@ -22,7 +22,7 @@ Each data point combines with numerical features. After normalization, we can ea
 ```bash
 pip install -r requirements.txt
 ``` 
-* Scikit-learn is **only** for examine correctness of methods implemented but does not participate. Whether to compare is set [here](https://github.com/liuzey/EECS738/blob/b88d30af51394cd80eecf678254439cb6e0f823c/main.py#L76).
+* **Scikit-learn is only for examine correctness of methods implemented but does not participate.** Whether to compare is set [here](https://github.com/liuzey/EECS738/blob/b88d30af51394cd80eecf678254439cb6e0f823c/main.py#L76).
 
 ## Usage
 ### Positional & Optional Parameters
