@@ -134,6 +134,8 @@ Settings aligns with Zoo Dataset.
 ### K-means Clustering
 * Best errors: 310.30
 * Best errors by scikit-learn: 679.19
+
+
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_elbow.png)
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_skl.png).
@@ -141,6 +143,8 @@ Settings aligns with Zoo Dataset.
 ### Gaussian Mixture Model
 * Best log-likelihood: 2.30
 * Best log-likelihood by scikit-learn (lower bounds): 0.39 
+
+
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_bic.png)
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_skl.png).
