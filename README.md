@@ -8,7 +8,7 @@ All data comes from UCI Machine Learning on Kaggle. Specifically, two classifica
 
 If you'd like to add your own data, please put them under ['data'](https://github.com/liuzey/EECS738/tree/main/data) to ensure the hierachy goes like './data/dataset_name/data_file.csv'. Also, put the label column on the rightmost.
 
-## Ideas
+## Motivation & Ideas
 Each data point combines with numerical features. After normalization, we can easily use kernel function to estimate the density, or use distance or Bayesian statistics to cluster them.
 
 ## Setup
