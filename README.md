@@ -82,12 +82,13 @@ python main.py zoo KDE
 ```bash
 python main.py zoo KMEANS -k 7
 ```
-* When **--optimized=True**, K is optimized across [1,9]. Elbow method is used to determine the best K.
+* When **--optimized=True**, K is optimized across [1,9]. 
 
 ```bash
 python main.py zoo KMEANS -o 1
 ```
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_elbow.png)
+Elbow method is used to determine the best K.
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_skl.png).
 
@@ -98,12 +99,13 @@ python main.py zoo KMEANS -o 1
 ```bash
 python main.py zoo GMM -k 7
 ```
-* When **--optimized=True**, K is optimized across [2,10]. Bayesian Information Criterion(BIC) is used to model performance and cost. Elbow method is used to determine the best K.
+* When **--optimized=True**, K is optimized across [2,10]. Bayesian Information Criterion(BIC) is used to model performance and cost. 
 
 ```bash
 python main.py zoo GMM -o 1
 ```
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_GMM_bic.png)
+Elbow method is used to determine the best K.
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_GMM_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_GMM_skl.png).
 
