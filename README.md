@@ -45,7 +45,7 @@ Results will be shown successively as follows:
 * My algorithm results (including visualization).
 * Results (including some visualization) for comparison from scikit-learn.
 
-## Zoo
+## Study 1: Zoo Dataset
 ### Histogram
 * Histograms are basic represenations of data frequency in bins of values.
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_hist.png)
