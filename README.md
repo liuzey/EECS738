@@ -46,6 +46,7 @@ Results will be shown successively as follows:
 * Results (including some visualization) for comparison from scikit-learn.
 
 ## Histograms
+Histograms are basic represenations of data frequency in bins of values.
 ### Zoo
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_hist.png)
 ### Glass
