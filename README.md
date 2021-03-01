@@ -57,8 +57,10 @@ Results will be shown successively as follows:
 
 
 ## Schedule
-- [x] Theoretical attack for face alignments.
-- [ ] Theoretical models for lens tolerance and adjustment.
-- [ ] Real parameter acquisition and evasion attack implementation.
-- [ ] Theoretical attacks for face recognition (misidentification).
-- [ ] Real face recognition attacks.
+- [x] Set up a new git repository in your GitHub account.
+- [x] Pick two datasets from (https://www.kaggle.com/uciml/datasets).
+- [x] Choose a programming language (Python, C/C++, Java). **Python**
+- [x] Formulate ideas on how machine learning can be used to model distributions within the dataset.
+- [x] Build a heuristic and/or algorithm to model the data using mixture models of probability distributions programmatically.
+- [x] Document your process and results.
+- [x] Commit your source code, documentation and other supporting files to the git repository in GitHub.
