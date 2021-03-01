@@ -77,6 +77,9 @@ python main.py zoo KDE
 ### K-means Clustering
 * Assign each data point to the nearest cluster center. Centers are updated as average of data points in each cluster.
 * Errors are calculated as the sum of Euclidean distances.
+* The best results are chosen among ten different randomly-initialized setting.
+* Best errors: 212.81
+* Best errors by scikit-learn: 519.97
 * When **--optimized=False**, K (number of clusters) is set at total number of labels mannually.
 
 ```bash
@@ -93,6 +96,9 @@ python main.py zoo KMEANS -o 1
 
 ### Gaussian Mixture Model
 * Several Gaussian distribution are used to represent the dataset. Each datapoint is assigned to the 'nearest distribution' based on posterior probability. Thus, data points following different distributions are clustered.
+* The best results are chosen among three different randomly-initialized setting.
+* Best log-likelihood: 35.26
+* Best log-likelihood by scikit-learn (lower bounds): 43.95 
 * When **--optimized=False**, K (number of clusters) is set at total number of labels mannually.
 
 ```bash
@@ -124,11 +130,15 @@ Settings aligns with Zoo Dataset.
 * Results using scikit-learn are the same. [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KDE_skl.png)
 
 ### K-means Clustering
+* Best errors: 310.30
+* Best errors by scikit-learn: 679.19
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_elbow.png)
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_skl.png).
 
 ### Gaussian Mixture Model
+* Best log-likelihood: 2.30
+* Best log-likelihood by scikit-learn (lower bounds): 0.39 
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_bic.png)
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_skl.png).
@@ -136,6 +146,7 @@ Settings aligns with Zoo Dataset.
 ## Notes
 * KNN doesn't behave well for Glass Dataset. Reasons may be that the dataset is unbalanced.
 * Performance of KNN improves with K to avoid overfitting noises.
+* Optimized KMeans or GMM can be very time-consuming. [Here](https://github.com/liuzey/EECS738/blob/main/algorithms/gmm.py#L18) and [here](https://github.com/liuzey/EECS738/blob/main/algorithms/kmeans.py#L15) for modify settings. [Here](https://github.com/liuzey/EECS738/tree/main/saved_logs) for a quick view of training records.
 
 
 ## Schedule
