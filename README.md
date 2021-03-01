@@ -75,12 +75,13 @@ python main.py zoo KDE
 * Results using scikit-learn are the same. [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KDE_skl.png)
 
 ### K-means Clustering
-```bash
-python main.py zoo KMEANS -k 7
-```
 * Assign each data point to the nearest cluster center. Centers are updated as average of data points in each cluster.
 * Errors are calculated as the sum of Euclidean distances.
 * When **--optimized=False**, K (number of clusters) is set at total number of labels mannually.
+
+```bash
+python main.py zoo KMEANS -k 7
+```
 * When **--optimized=True**, K is optimized across [1,9]. Elbow method is used to determine the best K.
 
 ```bash
@@ -91,11 +92,12 @@ python main.py zoo KMEANS -o 1
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_skl.png).
 
 ### Gaussian Mixture Model
+* Several Gaussian distribution are used to represent the dataset. Each datapoint is assigned to the 'nearest distribution' based on posterior probability. Thus, data points following different distributions are clustered.
+* When **--optimized=False**, K (number of clusters) is set at total number of labels mannually.
+
 ```bash
 python main.py zoo GMM -k 7
 ```
-* Several Gaussian distribution are used to represent the dataset. Each datapoint is assigned to the 'nearest distribution' based on posterior probability. Thus, data points following different distributions are clustered.
-* When **--optimized=False**, K (number of clusters) is set at total number of labels mannually.
 * When **--optimized=True**, K is optimized across [2,10]. Bayesian Information Criterion(BIC) is used to model performance and cost. Elbow method is used to determine the best K.
 
 ```bash
