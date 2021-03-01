@@ -53,6 +53,9 @@ Results will be shown successively as follows:
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_hist.png)
 
 ### KNN
+```bash
+python main.py zoo KNN -k 3
+```
 * A data point is labelled by voting of K nearest neighbors in distance.
 * Euclidean metrics are used.
 * A quick glance at distribution:
@@ -62,6 +65,9 @@ Results will be shown successively as follows:
 * Results using scikit-learn when K=3: 19/21=90.48%.
 
 ### Kernel Density Estimation
+```bash
+python main.py zoo KDE
+```
 * Fit each data point with a family of kernel functions. Stack functions together to represent the whole dataset.
 * Guassian kernels are used.
 
@@ -69,19 +75,33 @@ Results will be shown successively as follows:
 * Results using scikit-learn are the same. [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KDE_skl.png)
 
 ### K-means Clustering
+```bash
+python main.py zoo KMEANS -k 7
+```
 * Assign each data point to the nearest cluster center. Centers are updated as average of data points in each cluster.
 * Errors are calculated as the sum of Euclidean distances.
 * When **--optimized=False**, K (number of clusters) is set at total number of labels mannually.
 * When **--optimized=True**, K is optimized across [1,9]. Elbow method is used to determine the best K.
 
+```bash
+python main.py zoo KMEANS -o 1
+```
+![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_elbow.png)
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_KMEANS_skl.png).
 
 ### Gaussian Mixture Model
+```bash
+python main.py zoo GMM -k 7
+```
 * Several Gaussian distribution are used to represent the dataset. Each datapoint is assigned to the 'nearest distribution' based on posterior probability. Thus, data points following different distributions are clustered.
 * When **--optimized=False**, K (number of clusters) is set at total number of labels mannually.
 * When **--optimized=True**, K is optimized across [2,10]. Bayesian Information Criterion(BIC) is used to model performance and cost. Elbow method is used to determine the best K.
 
+```bash
+python main.py zoo GMM -o 1
+```
+![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_GMM_bic.png)
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_GMM_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Zoo_GMM_skl.png).
 
@@ -102,17 +122,18 @@ Settings aligns with Zoo Dataset.
 * Results using scikit-learn are the same. [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KDE_skl.png)
 
 ### K-means Clustering
+![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_elbow.png)
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_skl.png).
 
 ### Gaussian Mixture Model
+![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_bic.png)
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_my.png)
 * Results using scikit-learn can be find [here](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_skl.png).
 
 ## Notes
 * KNN doesn't behave well for Glass Dataset. Reasons may be that the dataset is unbalanced.
 * Performance of KNN improves with K to avoid overfitting noises.
-
 
 
 ## Schedule
