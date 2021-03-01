@@ -1,0 +1,100 @@
+./data/zoo/zoo.csv (101, 18)
+  animal_name  hair  feathers  eggs  ...  tail  domestic  catsize  class_type
+0    aardvark     1         0     0  ...     0         0        1           1
+1    antelope     1         0     0  ...     1         0        1           1
+2        bass     0         0     1  ...     1         0        0           4
+
+[3 rows x 18 columns]
+Index(['animal_name', 'hair', 'feathers', 'eggs', 'milk', 'airborne',
+       'aquatic', 'predator', 'toothed', 'backbone', 'breathes', 'venomous',
+       'fins', 'legs', 'tail', 'domestic', 'catsize', 'class_type'],
+      dtype='object')
+{1: 0, 2: 1, 4: 2, 7: 3, 6: 4, 3: 5, 5: 6}
+
+-----Statistics & Plots-----
+
+-----Algorithm Begins-----
+k=7, Round: 0
+Initial Errors: 304.64647745423736
+Iteration 0, Errors: 260.1998483027035
+Iteration 1, Errors: 233.18701701997378
+Iteration 2, Errors: 231.66375165191656
+Ended. Iteration 3, Errors: 231.66375165191656
+k=7, Round: 1
+Initial Errors: 302.4720365388465
+Iteration 0, Errors: 249.2671554292708
+Iteration 1, Errors: 229.00181537682488
+Iteration 2, Errors: 219.17623565331243
+Iteration 3, Errors: 218.376085158552
+Ended. Iteration 4, Errors: 218.376085158552
+k=7, Round: 2
+Initial Errors: 290.77684741850254
+Iteration 0, Errors: 247.92354484566323
+Iteration 1, Errors: 234.74389889137018
+Iteration 2, Errors: 233.19186782805403
+Iteration 3, Errors: 222.94165103042192
+Iteration 4, Errors: 220.74519200648035
+Ended. Iteration 5, Errors: 220.74519200648035
+k=7, Round: 3
+Initial Errors: 333.1626861685668
+Iteration 0, Errors: 281.59866182402624
+Iteration 1, Errors: 241.5793948506223
+Iteration 2, Errors: 228.05746082301206
+Iteration 3, Errors: 226.72943318625093
+Iteration 4, Errors: 225.26646667780852
+Ended. Iteration 5, Errors: 225.26646667780852
+k=7, Round: 4
+Initial Errors: 324.45962029429376
+Iteration 0, Errors: 254.96019669000083
+Iteration 1, Errors: 237.31254378613082
+Iteration 2, Errors: 234.55289683274643
+Iteration 3, Errors: 234.12684751729913
+Iteration 4, Errors: 234.1137735554161
+Iteration 5, Errors: 231.3953032428217
+Iteration 6, Errors: 227.41928443611192
+Iteration 7, Errors: 224.92087459993218
+Ended. Iteration 8, Errors: 224.92087459993218
+k=7, Round: 5
+Initial Errors: 365.58164112845867
+Iteration 0, Errors: 258.67257604554317
+Iteration 1, Errors: 248.40350823283444
+Iteration 2, Errors: 245.5500534809221
+Ended. Iteration 3, Errors: 245.5500534809221
+k=7, Round: 6
+Initial Errors: 288.8215855347422
+Iteration 0, Errors: 225.47833345762726
+Iteration 1, Errors: 225.30468531072677
+Iteration 2, Errors: 224.75785875493176
+Iteration 3, Errors: 223.58620940187325
+Iteration 4, Errors: 222.69000425244954
+Ended. Iteration 5, Errors: 222.69000425244954
+k=7, Round: 7
+Initial Errors: 308.5227997794233
+Iteration 0, Errors: 252.568079073607
+Iteration 1, Errors: 220.3036603170738
+Iteration 2, Errors: 218.42490509201318
+Iteration 3, Errors: 217.7944058255957
+Ended. Iteration 4, Errors: 217.7944058255957
+k=7, Round: 8
+Initial Errors: 275.028489203009
+Iteration 0, Errors: 216.9776684556875
+Iteration 1, Errors: 213.92824514078194
+Iteration 2, Errors: 213.5343996650501
+Iteration 3, Errors: 213.06583750433498
+Iteration 4, Errors: 212.81146288846432
+Ended. Iteration 5, Errors: 212.81146288846432
+k=7, Round: 9
+Initial Errors: 314.797001858055
+Iteration 0, Errors: 257.74888890584464
+Iteration 1, Errors: 257.3355216759067
+Iteration 2, Errors: 255.38356657083463
+Iteration 3, Errors: 254.76708325284412
+Iteration 4, Errors: 254.39860028551334
+Ended. Iteration 5, Errors: 254.39860028551334
+Best errors: 212.81146288846432
+Our K-means clustering finished. Errors: 212.81146288846432
+
+-----Compared with sklearn-----
+Errors using scikit-learn: 519.9732389671449%
+
+-----Time Used: 18.112127542495728s-----

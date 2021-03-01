@@ -1,0 +1,116 @@
+./data/iris/Iris.csv (150, 6)
+   Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm      Species
+0   1            5.1           3.5            1.4           0.2  Iris-setosa
+1   2            4.9           3.0            1.4           0.2  Iris-setosa
+2   3            4.7           3.2            1.3           0.2  Iris-setosa
+Index(['Id', 'SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm',
+       'Species'],
+      dtype='object')
+{'Iris-setosa': 0, 'Iris-versicolor': 1, 'Iris-virginica': 2}
+
+-----Statistics & Plots-----
+
+-----Algorithm Begins-----
+k=3, Round: 0
+Initial Errors: 245.65855371928836
+Iteration 0, Errors: 199.96482768560716
+Iteration 1, Errors: 153.69132880560306
+Iteration 2, Errors: 132.7195094682856
+Iteration 3, Errors: 130.15775172760485
+Iteration 4, Errors: 129.59086171513067
+Iteration 5, Errors: 129.49740544282437
+Iteration 6, Errors: 129.4611395951459
+Iteration 7, Errors: 129.4602978612613
+Ended. Iteration 8, Errors: 129.4602978612613
+k=3, Round: 1
+Initial Errors: 154.96168448130234
+Iteration 0, Errors: 132.38955220210144
+Iteration 1, Errors: 129.52515395751394
+Iteration 2, Errors: 129.4626639930148
+Iteration 3, Errors: 129.4602978612613
+Ended. Iteration 4, Errors: 129.4602978612613
+k=3, Round: 2
+Initial Errors: 377.6824532053734
+Iteration 0, Errors: 202.77013135033982
+Iteration 1, Errors: 158.4821339586913
+Iteration 2, Errors: 152.6645043610245
+Iteration 3, Errors: 142.6715885768774
+Iteration 4, Errors: 132.6378599094922
+Iteration 5, Errors: 131.0864561238324
+Iteration 6, Errors: 129.93073156599326
+Iteration 7, Errors: 129.67557490280174
+Iteration 8, Errors: 129.5200984227611
+Ended. Iteration 9, Errors: 129.5200984227611
+k=3, Round: 3
+Initial Errors: 272.027224257303
+Iteration 0, Errors: 170.6833679643513
+Iteration 1, Errors: 130.01496569057906
+Iteration 2, Errors: 129.49740544282437
+Iteration 3, Errors: 129.4611395951459
+Iteration 4, Errors: 129.4602978612613
+Ended. Iteration 5, Errors: 129.4602978612613
+k=3, Round: 4
+Initial Errors: 220.36948482657567
+Iteration 0, Errors: 150.46248271396522
+Iteration 1, Errors: 148.1288557135135
+Iteration 2, Errors: 148.01141860643287
+Iteration 3, Errors: 147.58571593871437
+Iteration 4, Errors: 147.02934650713982
+Iteration 5, Errors: 146.95615564799343
+Iteration 6, Errors: 147.85706644659868
+Iteration 7, Errors: 148.10331541550738
+Iteration 8, Errors: 148.29556242408245
+Iteration 9, Errors: 148.5280220293258
+Ended. Iteration 10, Errors: 148.5280220293258
+k=3, Round: 5
+Initial Errors: 169.31989952321592
+Iteration 0, Errors: 132.89849256378528
+Iteration 1, Errors: 130.08228618701423
+Iteration 2, Errors: 129.67557490280174
+Iteration 3, Errors: 129.5200984227611
+Ended. Iteration 4, Errors: 129.5200984227611
+k=3, Round: 6
+Initial Errors: 183.9649746875387
+Iteration 0, Errors: 146.45792662656518
+Iteration 1, Errors: 148.10331541550738
+Iteration 2, Errors: 148.29556242408245
+Iteration 3, Errors: 148.5280220293258
+Ended. Iteration 4, Errors: 148.5280220293258
+k=3, Round: 7
+Initial Errors: 275.50247602916903
+Iteration 0, Errors: 148.86911701105313
+Iteration 1, Errors: 145.99115788844443
+Iteration 2, Errors: 146.9972227238336
+Iteration 3, Errors: 148.10331541550738
+Iteration 4, Errors: 148.29556242408245
+Iteration 5, Errors: 148.5280220293258
+Ended. Iteration 6, Errors: 148.5280220293258
+k=3, Round: 8
+Initial Errors: 180.14331580746742
+Iteration 0, Errors: 138.217186061444
+Iteration 1, Errors: 133.90586982323055
+Iteration 2, Errors: 132.0378666047182
+Iteration 3, Errors: 130.85132903141528
+Iteration 4, Errors: 129.73187176790015
+Iteration 5, Errors: 129.67557490280174
+Iteration 6, Errors: 129.5200984227611
+Ended. Iteration 7, Errors: 129.5200984227611
+k=3, Round: 9
+Initial Errors: 293.10797754983395
+Iteration 0, Errors: 191.6314105185233
+Iteration 1, Errors: 175.48765444970365
+Iteration 2, Errors: 155.1539958898487
+Iteration 3, Errors: 136.6163027351456
+Iteration 4, Errors: 131.37276598980853
+Iteration 5, Errors: 129.66804508071203
+Iteration 6, Errors: 129.49740544282437
+Iteration 7, Errors: 129.4611395951459
+Iteration 8, Errors: 129.4602978612613
+Ended. Iteration 9, Errors: 129.4602978612613
+Best errors: 129.4602978612613
+Our K-means clustering finished. Errors: 129.4602978612613
+
+-----Compared with sklearn-----
+Errors using scikit-learn: 140.02858976207668%
+
+-----Time Used: 14.784966945648193s-----

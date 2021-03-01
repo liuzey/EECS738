@@ -1,0 +1,22 @@
+./data/zoo/zoo.csv (101, 18)
+  animal_name  hair  feathers  eggs  ...  tail  domestic  catsize  class_type
+0    aardvark     1         0     0  ...     0         0        1           1
+1    antelope     1         0     0  ...     1         0        1           1
+2        bass     0         0     1  ...     1         0        0           4
+
+[3 rows x 18 columns]
+Index(['animal_name', 'hair', 'feathers', 'eggs', 'milk', 'airborne',
+       'aquatic', 'predator', 'toothed', 'backbone', 'breathes', 'venomous',
+       'fins', 'legs', 'tail', 'domestic', 'catsize', 'class_type'],
+      dtype='object')
+{1: 0, 2: 1, 4: 2, 7: 3, 6: 4, 3: 5, 5: 6}
+
+-----Statistics & Plots-----
+
+-----Algorithm Begins-----
+(k=7) Our Accuracy: 19/21=90.47619047619048%
+
+-----Compared with sklearn-----
+Accuracy using scikit-learn: 90.47619047619048%
+
+-----Time Used: 1.1732046604156494s-----

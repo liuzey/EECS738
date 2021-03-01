@@ -1,0 +1,370 @@
+./data/zoo/zoo.csv (101, 18)
+  animal_name  hair  feathers  eggs  ...  tail  domestic  catsize  class_type
+0    aardvark     1         0     0  ...     0         0        1           1
+1    antelope     1         0     0  ...     1         0        1           1
+2        bass     0         0     1  ...     1         0        0           4
+
+[3 rows x 18 columns]
+Index(['animal_name', 'hair', 'feathers', 'eggs', 'milk', 'airborne',
+       'aquatic', 'predator', 'toothed', 'backbone', 'breathes', 'venomous',
+       'fins', 'legs', 'tail', 'domestic', 'catsize', 'class_type'],
+      dtype='object')
+{1: 0, 2: 1, 4: 2, 7: 3, 6: 4, 3: 5, 5: 6}
+
+-----Statistics & Plots-----
+
+-----Algorithm Begins-----
+k=1, Round: 0
+Iteration 0, Log-likelihood: -15.67075970441763
+Iteration 1, Log-likelihood: -15.67075970441763
+Ended. Iteration 1, Log-likelihood: -15.67075970441763
+k=1, Round: 1
+Iteration 0, Log-likelihood: -15.67075970441763
+Iteration 1, Log-likelihood: -15.67075970441763
+Ended. Iteration 1, Log-likelihood: -15.67075970441763
+k=1, Round: 2
+Iteration 0, Log-likelihood: -15.67075970441763
+Iteration 1, Log-likelihood: -15.67075970441763
+Ended. Iteration 1, Log-likelihood: -15.67075970441763
+Best log-likihood: -15.67075970441763
+k=2, Round: 0
+Iteration 0, Log-likelihood: -11.655428324133261
+Iteration 1, Log-likelihood: -3.4944801949665836
+Iteration 2, Log-likelihood: -0.01212773229060472
+Iteration 3, Log-likelihood: 0.05947633136627417
+Iteration 4, Log-likelihood: 0.06680155027933805
+Iteration 5, Log-likelihood: 0.06686370161337697
+Iteration 6, Log-likelihood: 0.06686395027155831
+Iteration 7, Log-likelihood: 0.06686395467637046
+Ended. Iteration 7, Log-likelihood: 0.06686395467637046
+k=2, Round: 1
+Iteration 0, Log-likelihood: -7.708222457682364
+Iteration 1, Log-likelihood: -4.279746150196113
+Iteration 2, Log-likelihood: -0.5322081916782047
+Iteration 3, Log-likelihood: 0.8914384273150663
+Iteration 4, Log-likelihood: 1.7115958137349607
+Iteration 5, Log-likelihood: 1.9734752546565864
+Iteration 6, Log-likelihood: 1.9734752546498555
+Ended. Iteration 6, Log-likelihood: 1.9734752546498555
+k=2, Round: 2
+Iteration 0, Log-likelihood: -1.398303711568646
+Iteration 1, Log-likelihood: 2.0802832542702867
+Iteration 2, Log-likelihood: 2.0802832725575446
+Iteration 3, Log-likelihood: 2.0802832725594094
+Ended. Iteration 3, Log-likelihood: 2.0802832725594094
+Best log-likihood: 2.0802832725594094
+k=3, Round: 0
+Iteration 0, Log-likelihood: -3.646214031330787
+Iteration 1, Log-likelihood: 9.385295489142106
+Iteration 2, Log-likelihood: 12.009154227235538
+Iteration 3, Log-likelihood: 12.486795993243371
+Iteration 4, Log-likelihood: 12.927134521083747
+Iteration 5, Log-likelihood: 13.004854499507033
+Iteration 6, Log-likelihood: 13.004854848982694
+Iteration 7, Log-likelihood: 13.00485484891064
+Ended. Iteration 7, Log-likelihood: 13.00485484891064
+k=3, Round: 1
+Iteration 0, Log-likelihood: -6.254935976260443
+Iteration 1, Log-likelihood: -0.6741001279042143
+Iteration 2, Log-likelihood: 2.4402653817710647
+Iteration 3, Log-likelihood: 3.501590390371826
+Iteration 4, Log-likelihood: 3.73498546552301
+Iteration 5, Log-likelihood: 3.7350038030319883
+Iteration 6, Log-likelihood: 3.7350059871524093
+Iteration 7, Log-likelihood: 3.7350062909212935
+Iteration 8, Log-likelihood: 3.735006332806572
+Iteration 9, Log-likelihood: 3.7350063374028672
+Ended. Iteration 9, Log-likelihood: 3.7350063374028672
+k=3, Round: 2
+Iteration 0, Log-likelihood: -1.1819865180535845
+Iteration 1, Log-likelihood: 10.177990390038975
+Iteration 2, Log-likelihood: 12.041957338744513
+Iteration 3, Log-likelihood: 14.197923838676422
+Iteration 4, Log-likelihood: 14.548116097730741
+Iteration 5, Log-likelihood: 15.037311437897918
+Iteration 6, Log-likelihood: 15.037311437983009
+Ended. Iteration 6, Log-likelihood: 15.037311437983009
+Best log-likihood: 15.037311437983009
+k=4, Round: 0
+Iteration 0, Log-likelihood: -4.709187425296718
+Iteration 1, Log-likelihood: 11.282168728523798
+Iteration 2, Log-likelihood: 18.58704296237852
+Iteration 3, Log-likelihood: 19.699267920714497
+Iteration 4, Log-likelihood: 19.901448018609734
+Iteration 5, Log-likelihood: 19.901448018619472
+Ended. Iteration 5, Log-likelihood: 19.901448018619472
+k=4, Round: 1
+Iteration 0, Log-likelihood: 1.4208424463383096
+Iteration 1, Log-likelihood: 20.376425387484534
+Iteration 2, Log-likelihood: 23.731214653963423
+Iteration 3, Log-likelihood: 24.529244786798813
+Iteration 4, Log-likelihood: 24.53901147408228
+Iteration 5, Log-likelihood: 24.539013995140106
+Iteration 6, Log-likelihood: 24.539013995159973
+Ended. Iteration 6, Log-likelihood: 24.539013995159973
+k=4, Round: 2
+k=4, Round: 2
+Iteration 0, Log-likelihood: 1.8713159112994908
+Iteration 1, Log-likelihood: 9.009362179757627
+Iteration 2, Log-likelihood: 12.948116970585474
+Iteration 3, Log-likelihood: 16.444007428502196
+Iteration 4, Log-likelihood: 16.762136500327017
+Iteration 5, Log-likelihood: 17.41800070354402
+Iteration 6, Log-likelihood: 18.47272989087418
+Iteration 7, Log-likelihood: 18.472750069079066
+Iteration 8, Log-likelihood: 18.472750250664483
+Iteration 9, Log-likelihood: 18.4727502512467
+Ended. Iteration 9, Log-likelihood: 18.4727502512467
+Best log-likihood: 24.539013995159973
+k=5, Round: 0
+Iteration 0, Log-likelihood: -0.40022056723302857
+Iteration 1, Log-likelihood: 21.211370603454004
+Iteration 2, Log-likelihood: 24.964068936078228
+Iteration 3, Log-likelihood: 25.512775544487138
+Iteration 4, Log-likelihood: 25.512841788298548
+Iteration 5, Log-likelihood: 25.51288282299959
+Iteration 6, Log-likelihood: 25.512916156023447
+Iteration 7, Log-likelihood: 25.512949774688252
+Iteration 8, Log-likelihood: 25.512991036392577
+Iteration 9, Log-likelihood: 25.51305269122161
+Iteration 10, Log-likelihood: 25.513166836068223
+Iteration 11, Log-likelihood: 25.513437671974618
+Iteration 12, Log-likelihood: 25.514290148578258
+Iteration 13, Log-likelihood: 25.51751357015913
+Iteration 14, Log-likelihood: 25.52438554593533
+Iteration 15, Log-likelihood: 25.525954415337985
+Iteration 16, Log-likelihood: 25.525956922094284
+Iteration 17, Log-likelihood: 25.525956922470854
+Ended. Iteration 17, Log-likelihood: 25.525956922470854
+k=5, Round: 1
+Iteration 0, Log-likelihood: 7.9341592106484695
+Iteration 1, Log-likelihood: 23.228826872010803
+Iteration 2, Log-likelihood: 24.722264803050845
+Iteration 3, Log-likelihood: 25.890314470087606
+Iteration 4, Log-likelihood: 26.27698487936592
+Iteration 5, Log-likelihood: 28.09134300318178
+Iteration 6, Log-likelihood: 28.12479979194771
+Iteration 7, Log-likelihood: 28.124799792520303
+Ended. Iteration 7, Log-likelihood: 28.124799792520303
+k=5, Round: 2
+Iteration 0, Log-likelihood: 1.9384522383762566
+Iteration 1, Log-likelihood: 19.238571086738098
+Iteration 2, Log-likelihood: 25.10372815439308
+Iteration 3, Log-likelihood: 26.24960748552166
+Iteration 4, Log-likelihood: 26.249607551446452
+Iteration 5, Log-likelihood: 26.2496075514414
+Ended. Iteration 5, Log-likelihood: 26.2496075514414
+Best log-likihood: 28.124799792520303
+k=6, Round: 0
+Iteration 0, Log-likelihood: 14.477422122062713
+Iteration 1, Log-likelihood: 23.172584990481283
+Iteration 2, Log-likelihood: 25.54934777070876
+Iteration 3, Log-likelihood: 26.916248618432533
+Iteration 4, Log-likelihood: 26.97325712308597
+Iteration 5, Log-likelihood: 26.973257123127937
+Ended. Iteration 5, Log-likelihood: 26.973257123127937
+k=6, Round: 1
+Iteration 0, Log-likelihood: 11.435719184823169
+Iteration 1, Log-likelihood: 26.03297714649839
+Iteration 2, Log-likelihood: 29.14129037778824
+Iteration 3, Log-likelihood: 29.60559688730939
+Iteration 4, Log-likelihood: 29.833623933961558
+Iteration 5, Log-likelihood: 30.20300580959834
+Iteration 6, Log-likelihood: 30.21344551218868
+Iteration 7, Log-likelihood: 30.21345550040875
+Iteration 8, Log-likelihood: 30.213470513490353
+Iteration 9, Log-likelihood: 30.21349583498532
+Iteration 10, Log-likelihood: 30.213544799547705
+Iteration 11, Log-likelihood: 30.21365686990432
+Iteration 12, Log-likelihood: 30.213974353235734
+Iteration 13, Log-likelihood: 30.2151416674984
+Iteration 14, Log-likelihood: 30.220507446022804
+Iteration 15, Log-likelihood: 30.242358954497142
+Iteration 16, Log-likelihood: 30.319356292538163
+Iteration 17, Log-likelihood: 30.588740819467976
+Iteration 18, Log-likelihood: 30.58874081990952
+Ended. Iteration 18, Log-likelihood: 30.58874081990952
+k=6, Round: 2
+Iteration 0, Log-likelihood: 9.600074530637942
+Iteration 1, Log-likelihood: 25.56372527345211
+Iteration 2, Log-likelihood: 28.914214941303438
+Iteration 3, Log-likelihood: 28.914886001819816
+Iteration 4, Log-likelihood: 28.91633419516529
+Iteration 5, Log-likelihood: 28.93027205821552
+Iteration 6, Log-likelihood: 29.076866457264305
+Iteration 7, Log-likelihood: 29.62218204668365
+Iteration 8, Log-likelihood: 29.62220248519615
+Iteration 9, Log-likelihood: 29.62220557227837
+Iteration 10, Log-likelihood: 29.622207096185203
+Iteration 11, Log-likelihood: 29.62220810075089
+Iteration 12, Log-likelihood: 29.62220892099433
+Iteration 13, Log-likelihood: 29.62220972394642
+Iteration 14, Log-likelihood: 29.622210655393893
+Iteration 15, Log-likelihood: 29.62221194078976
+Iteration 16, Log-likelihood: 29.622214093711108
+Iteration 17, Log-likelihood: 29.622218667891666
+Iteration 18, Log-likelihood: 29.622232173559457
+Iteration 19, Log-likelihood: 29.622300381871657
+Iteration 20, Log-likelihood: 29.623376507254882
+Iteration 21, Log-likelihood: 29.685803796068384
+Iteration 22, Log-likelihood: 30.704021825338785
+Iteration 23, Log-likelihood: 31.26053049414525
+Iteration 24, Log-likelihood: 31.26136174072867
+Iteration 25, Log-likelihood: 31.261838093947006
+Iteration 26, Log-likelihood: 31.26232510519039
+Iteration 27, Log-likelihood: 31.263089736683817
+Iteration 28, Log-likelihood: 31.264896389806648
+Iteration 29, Log-likelihood: 31.271434166083463
+Iteration 30, Log-likelihood: 31.303247316736186
+Iteration 31, Log-likelihood: 31.465003813658605
+Iteration 32, Log-likelihood: 31.955943930670315
+Iteration 33, Log-likelihood: 31.955943930666628
+Ended. Iteration 33, Log-likelihood: 31.955943930666628
+Best log-likihood: 31.955943930666628
+k=7, Round: 0
+Iteration 0, Log-likelihood: 10.222905591898982
+Iteration 1, Log-likelihood: 28.737443691579152
+Iteration 2, Log-likelihood: 31.760400003555816
+Iteration 3, Log-likelihood: 31.89685647522873
+Iteration 4, Log-likelihood: 32.74635084359018
+Iteration 5, Log-likelihood: 33.29557718883072
+Iteration 6, Log-likelihood: 33.55403498627002
+Iteration 7, Log-likelihood: 33.554037052867834
+Iteration 8, Log-likelihood: 33.55403705286665
+Ended. Iteration 8, Log-likelihood: 33.55403705286665
+k=7, Round: 1
+Iteration 0, Log-likelihood: 11.985356578813
+Iteration 1, Log-likelihood: 31.095349192083297
+Iteration 2, Log-likelihood: 35.904341186461664
+Iteration 3, Log-likelihood: 35.95264324500566
+Iteration 4, Log-likelihood: 35.95264329517259
+Iteration 5, Log-likelihood: 35.95264329540001
+Ended. Iteration 5, Log-likelihood: 35.95264329540001
+k=7, Round: 2
+Iteration 0, Log-likelihood: 3.690670220066648
+Iteration 1, Log-likelihood: 25.78415417133754
+Iteration 2, Log-likelihood: 30.344173731785876
+Iteration 3, Log-likelihood: 32.33234498337336
+Iteration 4, Log-likelihood: 32.33234614457237
+Iteration 5, Log-likelihood: 32.332346144942655
+Ended. Iteration 5, Log-likelihood: 32.332346144942655
+Best log-likihood: 35.95264329540001
+k=8, Round: 0
+Iteration 0, Log-likelihood: 13.436730496758647
+Iteration 1, Log-likelihood: 23.71025127966643
+Iteration 2, Log-likelihood: 26.820682660388588
+Iteration 3, Log-likelihood: 27.489453176097587
+Iteration 4, Log-likelihood: 27.492519809848332
+Iteration 5, Log-likelihood: 27.492519809847934
+Ended. Iteration 5, Log-likelihood: 27.492519809847934
+k=8, Round: 1
+Iteration 0, Log-likelihood: 7.005208115996678
+Iteration 1, Log-likelihood: 27.881752574961556
+Iteration 2, Log-likelihood: 30.604188448372444
+Iteration 3, Log-likelihood: 31.2200320515004
+Iteration 4, Log-likelihood: 32.04023108782838
+Iteration 5, Log-likelihood: 32.6004464308676
+Iteration 6, Log-likelihood: 32.60044643087041
+Ended. Iteration 6, Log-likelihood: 32.60044643087041
+k=8, Round: 2
+Iteration 0, Log-likelihood: 14.584221905883673
+Iteration 1, Log-likelihood: 31.205488607492146
+Iteration 2, Log-likelihood: 31.752331218203498
+Iteration 3, Log-likelihood: 31.75318263652136
+Iteration 4, Log-likelihood: 31.753182636534586
+Ended. Iteration 4, Log-likelihood: 31.753182636534586
+Best log-likihood: 32.60044643087041
+k=9, Round: 0
+Iteration 0, Log-likelihood: 7.758808438216751
+Iteration 1, Log-likelihood: 16.882878194014804
+Iteration 2, Log-likelihood: 16.93408704290997
+Iteration 3, Log-likelihood: 16.934087043035078
+Ended. Iteration 3, Log-likelihood: 16.934087043035078
+k=9, Round: 1
+Iteration 0, Log-likelihood: 18.516627624111784
+Iteration 1, Log-likelihood: 34.84498682548867
+Iteration 2, Log-likelihood: 36.94588689704145
+Iteration 3, Log-likelihood: 37.01904419520863
+Iteration 4, Log-likelihood: 37.046260334438344
+Iteration 5, Log-likelihood: 37.046262979930624
+Iteration 6, Log-likelihood: 37.04626297984137
+Ended. Iteration 6, Log-likelihood: 37.04626297984137
+k=9, Round: 2
+Iteration 0, Log-likelihood: 13.121327984108449
+Iteration 1, Log-likelihood: 38.67477476457867
+Iteration 2, Log-likelihood: 41.90146018910965
+Iteration 3, Log-likelihood: 42.51449561630981
+Iteration 4, Log-likelihood: 43.00938154003073
+Iteration 5, Log-likelihood: 43.22423646902978
+Iteration 6, Log-likelihood: 43.83178781449965
+Iteration 7, Log-likelihood: 44.59599714930867
+Iteration 8, Log-likelihood: 44.99036622116624
+Iteration 9, Log-likelihood: 45.18133351471166
+Iteration 10, Log-likelihood: 45.35907107677896
+Iteration 11, Log-likelihood: 45.658315637738696
+Iteration 12, Log-likelihood: 45.658315637738696
+Ended. Iteration 12, Log-likelihood: 45.658315637738696
+Best log-likihood: 45.658315637738696
+k=10, Round: 0
+Iteration 0, Log-likelihood: 20.2156478424928
+Iteration 1, Log-likelihood: 28.748024059592453
+Iteration 2, Log-likelihood: 30.230916758261074
+Iteration 3, Log-likelihood: 30.510835479815817
+Iteration 4, Log-likelihood: 30.926452445459763
+Iteration 5, Log-likelihood: 30.999764129479708
+Iteration 6, Log-likelihood: 31.167833240488093
+Iteration 7, Log-likelihood: 32.12990229888949
+Iteration 8, Log-likelihood: 34.428669425226076
+Iteration 9, Log-likelihood: 34.45443584841786
+Iteration 10, Log-likelihood: 34.454435848436795
+Ended. Iteration 10, Log-likelihood: 34.454435848436795
+k=10, Round: 1
+k=10, Round: 1
+k=10, Round: 1
+Iteration 0, Log-likelihood: 19.697214475819596
+Iteration 1, Log-likelihood: 36.04354004927622
+Iteration 2, Log-likelihood: 37.49645471562608
+Iteration 3, Log-likelihood: 37.49721689235625
+Iteration 4, Log-likelihood: 37.497216892359425
+Ended. Iteration 4, Log-likelihood: 37.497216892359425
+k=10, Round: 2
+k=10, Round: 2
+k=10, Round: 2
+Iteration 0, Log-likelihood: 14.31276172236574
+Iteration 1, Log-likelihood: 27.803586274484985
+Iteration 2, Log-likelihood: 30.272840313214108
+Iteration 3, Log-likelihood: 30.379757191319086
+Iteration 4, Log-likelihood: 30.37975719266793
+Ended. Iteration 4, Log-likelihood: 30.37975719266793
+Best log-likihood: 37.497216892359425
+k=11, Round: 0
+k=11, Round: 0
+Iteration 0, Log-likelihood: 19.115134808837574
+Iteration 1, Log-likelihood: 36.64152651140431
+Iteration 2, Log-likelihood: 40.18864065222897
+Iteration 3, Log-likelihood: 40.92342972063559
+Iteration 4, Log-likelihood: 40.92342972064187
+Ended. Iteration 4, Log-likelihood: 40.92342972064187
+k=11, Round: 1
+Iteration 0, Log-likelihood: 13.576825881285064
+Iteration 1, Log-likelihood: 41.74745093038783
+Iteration 2, Log-likelihood: 46.09307298361846
+Iteration 3, Log-likelihood: 47.480650886151835
+Iteration 4, Log-likelihood: 47.49469733898314
+Iteration 5, Log-likelihood: 47.507448424911786
+Iteration 6, Log-likelihood: 47.50746649792281
+Iteration 7, Log-likelihood: 47.50746649793648
+Ended. Iteration 7, Log-likelihood: 47.50746649793648
+k=11, Round: 2
+Iteration 0, Log-likelihood: 17.831699053992423
+Iteration 1, Log-likelihood: 42.48528393079906
+Iteration 2, Log-likelihood: 42.953763122785716
+Iteration 3, Log-likelihood: 42.95376313191913
+Ended. Iteration 3, Log-likelihood: 42.95376313191913
+Best log-likihood: 47.50746649793648
+Best k you choose: Our GMM finished. Log-likelihood: 35.95264329540001
+
+-----Compared with sklearn-----
+Log-likelihood using scikit-learn (lower bounds): 41.10855619047619
+
+-----Time Used: 187.02678298950195s-----

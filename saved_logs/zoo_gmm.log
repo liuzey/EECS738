@@ -1,0 +1,51 @@
+./data/zoo/zoo.csv (101, 18)
+  animal_name  hair  feathers  eggs  ...  tail  domestic  catsize  class_type
+0    aardvark     1         0     0  ...     0         0        1           1
+1    antelope     1         0     0  ...     1         0        1           1
+2        bass     0         0     1  ...     1         0        0           4
+
+[3 rows x 18 columns]
+Index(['animal_name', 'hair', 'feathers', 'eggs', 'milk', 'airborne',
+       'aquatic', 'predator', 'toothed', 'backbone', 'breathes', 'venomous',
+       'fins', 'legs', 'tail', 'domestic', 'catsize', 'class_type'],
+      dtype='object')
+{1: 0, 2: 1, 4: 2, 7: 3, 6: 4, 3: 5, 5: 6}
+
+-----Statistics & Plots-----
+
+-----Algorithm Begins-----
+k=7, Round: 0
+Iteration 0, Log-likelihood: 12.737813536841076
+Iteration 1, Log-likelihood: 28.465270856472685
+Iteration 2, Log-likelihood: 29.994409377752095
+Iteration 3, Log-likelihood: 31.0718468866371
+Iteration 4, Log-likelihood: 31.073057118616966
+Iteration 5, Log-likelihood: 31.073057118652375
+Ended. Iteration 5, Log-likelihood: 31.073057118652375
+k=7, Round: 1
+Iteration 0, Log-likelihood: 13.598425622270677
+Iteration 1, Log-likelihood: 29.975589568428877
+Iteration 2, Log-likelihood: 33.15766861073641
+Iteration 3, Log-likelihood: 34.475942648074735
+Iteration 4, Log-likelihood: 35.260984357296614
+Iteration 5, Log-likelihood: 35.26109626668574
+Iteration 6, Log-likelihood: 35.261096269746176
+Ended. Iteration 6, Log-likelihood: 35.261096269746176
+k=7, Round: 2
+k=7, Round: 2
+Iteration 0, Log-likelihood: 8.618296282942707
+Iteration 1, Log-likelihood: 20.060951040232144
+Iteration 2, Log-likelihood: 21.99667340238134
+Iteration 3, Log-likelihood: 22.93388189864304
+Iteration 4, Log-likelihood: 23.091606547086602
+Iteration 5, Log-likelihood: 24.43106017289441
+Iteration 6, Log-likelihood: 24.438047885798557
+Iteration 7, Log-likelihood: 24.438047885763154
+Ended. Iteration 7, Log-likelihood: 24.438047885763154
+Best log-likihood: 35.261096269746176
+Our GMM finished. Log-likelihood: 35.261096269746176
+
+-----Compared with sklearn-----
+Log-likelihood using scikit-learn (lower bounds): 43.95132970043931
+
+-----Time Used: 164.79057478904724s-----

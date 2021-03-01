@@ -1,0 +1,1013 @@
+./data/glass/glass.csv (214, 10)
+        RI     Na    Mg    Al     Si     K    Ca   Ba   Fe  Type
+0  1.52101  13.64  4.49  1.10  71.78  0.06  8.75  0.0  0.0     1
+1  1.51761  13.89  3.60  1.36  72.73  0.48  7.83  0.0  0.0     1
+2  1.51618  13.53  3.55  1.54  72.99  0.39  7.78  0.0  0.0     1
+Index(['RI', 'Na', 'Mg', 'Al', 'Si', 'K', 'Ca', 'Ba', 'Fe', 'Type'], dtype='object')
+{2: 0, 1: 1, 7: 2, 3: 3, 5: 4, 6: 5}
+
+-----Statistics & Plots-----
+
+-----Algorithm Begins-----
+k=1, Round: 0
+Initial Errors: 722.2078110689797
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+k=1, Round: 1
+Initial Errors: 554.3851639524617
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+k=1, Round: 2
+Initial Errors: 631.990411520939
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+k=1, Round: 3
+Initial Errors: 1061.7637797779828
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+k=1, Round: 4
+Initial Errors: 583.0804773668808
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+k=1, Round: 5
+Initial Errors: 622.334733227432
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+k=1, Round: 6
+Initial Errors: 559.0931237850459
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+k=1, Round: 7
+Initial Errors: 556.8532815661616
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+k=1, Round: 8
+Initial Errors: 761.4418320525504
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+k=1, Round: 9
+Initial Errors: 572.0543707559267
+Iteration 0, Errors: 536.9953531940997
+Ended. Iteration 1, Errors: 536.9953531940997
+Best errors: 536.9953531940997
+k=2, Round: 0
+Initial Errors: 490.0285909635379
+Iteration 0, Errors: 463.6188383438404
+Iteration 1, Errors: 465.17706426994954
+Ended. Iteration 2, Errors: 465.17706426994954
+k=2, Round: 1
+Initial Errors: 579.0283609714727
+Iteration 0, Errors: 477.40380213006586
+Iteration 1, Errors: 473.1177991772438
+Iteration 2, Errors: 472.64392918000857
+Iteration 3, Errors: 472.1317332327857
+Iteration 4, Errors: 468.3797158774378
+Iteration 5, Errors: 466.51205434455716
+Iteration 6, Errors: 465.9870642861595
+Iteration 7, Errors: 465.3989795892777
+Iteration 8, Errors: 465.5805619360984
+Ended. Iteration 9, Errors: 465.5805619360984
+k=2, Round: 2
+Initial Errors: 729.5911392312784
+Iteration 0, Errors: 507.6431119742901
+Iteration 1, Errors: 504.2026410224343
+Iteration 2, Errors: 502.2790297864877
+Iteration 3, Errors: 500.0046483415974
+Iteration 4, Errors: 499.1463714960263
+Ended. Iteration 5, Errors: 499.1463714960263
+k=2, Round: 3
+Initial Errors: 551.5702305271205
+Iteration 0, Errors: 500.9231650185035
+Iteration 1, Errors: 499.87022580376015
+Iteration 2, Errors: 499.7965869434011
+Iteration 3, Errors: 499.7651875852723
+Iteration 4, Errors: 499.1252182417146
+Iteration 5, Errors: 498.5287731320205
+Iteration 6, Errors: 497.5316545557793
+Iteration 7, Errors: 494.6160328076644
+Iteration 8, Errors: 491.41156050877305
+Iteration 9, Errors: 489.54216109685626
+Iteration 10, Errors: 488.53558085068397
+Iteration 11, Errors: 488.1264186131791
+Ended. Iteration 12, Errors: 488.1264186131791
+k=2, Round: 4
+Initial Errors: 676.7955601712571
+Iteration 0, Errors: 530.956751333343
+Iteration 1, Errors: 525.3989451737789
+Iteration 2, Errors: 476.7232763933283
+Iteration 3, Errors: 465.0014407160824
+Iteration 4, Errors: 466.2042881060746
+Ended. Iteration 5, Errors: 466.2042881060746
+k=2, Round: 5
+Initial Errors: 517.2943013230478
+Iteration 0, Errors: 464.3431370224646
+Iteration 1, Errors: 465.1909235834499
+Ended. Iteration 2, Errors: 465.1909235834499
+k=2, Round: 6
+Initial Errors: 501.31798866221664
+Iteration 0, Errors: 467.11059379447266
+Iteration 1, Errors: 464.01133449758555
+Iteration 2, Errors: 465.17706426994954
+Ended. Iteration 3, Errors: 465.17706426994954
+k=2, Round: 7
+Initial Errors: 503.50885556337573
+Iteration 0, Errors: 490.9963594130392
+Iteration 1, Errors: 489.875707112698
+Iteration 2, Errors: 488.53558085068397
+Iteration 3, Errors: 488.1264186131791
+Ended. Iteration 4, Errors: 488.1264186131791
+k=2, Round: 8
+Initial Errors: 496.1717987988428
+Iteration 0, Errors: 463.69760503189127
+Iteration 1, Errors: 465.1909235834499
+Ended. Iteration 2, Errors: 465.1909235834499
+k=2, Round: 9
+Initial Errors: 700.3505749669206
+Iteration 0, Errors: 524.7475378047194
+Iteration 1, Errors: 502.3759752547919
+Iteration 2, Errors: 499.239064703075
+Iteration 3, Errors: 498.7721168512148
+Iteration 4, Errors: 498.0233746419569
+Iteration 5, Errors: 498.36600367460045
+Iteration 6, Errors: 499.4539553491488
+Iteration 7, Errors: 499.2871830491184
+Iteration 8, Errors: 498.5287731320205
+Iteration 9, Errors: 497.5316545557793
+Iteration 10, Errors: 494.6160328076644
+Iteration 11, Errors: 491.41156050877305
+Iteration 12, Errors: 489.54216109685626
+Iteration 13, Errors: 488.53558085068397
+Iteration 14, Errors: 488.1264186131791
+Ended. Iteration 15, Errors: 488.1264186131791
+Best errors: 465.17706426994954
+k=3, Round: 0
+Initial Errors: 497.67078137213616
+Iteration 0, Errors: 420.97213517531276
+Iteration 1, Errors: 420.44708803774546
+Iteration 2, Errors: 420.7923760663087
+Ended. Iteration 3, Errors: 420.7923760663087
+k=3, Round: 1
+Initial Errors: 545.1296504268844
+Iteration 0, Errors: 493.4866974118491
+Iteration 1, Errors: 452.7663142552233
+Iteration 2, Errors: 422.5162672464677
+Iteration 3, Errors: 417.65480963257437
+Iteration 4, Errors: 414.18900987020675
+Iteration 5, Errors: 413.15605004396133
+Iteration 6, Errors: 414.3777689257283
+Iteration 7, Errors: 415.0573362412304
+Ended. Iteration 8, Errors: 415.0573362412304
+k=3, Round: 2
+Initial Errors: 516.3422369046796
+Iteration 0, Errors: 476.5497088297169
+Iteration 1, Errors: 462.4560102391209
+Iteration 2, Errors: 453.6972755067796
+Iteration 3, Errors: 449.643234598742
+Iteration 4, Errors: 445.2994551487959
+Iteration 5, Errors: 436.0876461867715
+Iteration 6, Errors: 430.23006453872256
+Iteration 7, Errors: 425.23006748874013
+Iteration 8, Errors: 423.6169848389542
+Iteration 9, Errors: 423.130294300383
+Ended. Iteration 10, Errors: 423.130294300383
+k=3, Round: 3
+Initial Errors: 494.925571204098
+Iteration 0, Errors: 423.85856137686216
+Iteration 1, Errors: 421.8915991756784
+Iteration 2, Errors: 422.29185091542894
+Iteration 3, Errors: 421.87709475304734
+Ended. Iteration 4, Errors: 421.87709475304734
+k=3, Round: 4
+Initial Errors: 539.3424288474098
+Iteration 0, Errors: 475.9060561979832
+Iteration 1, Errors: 473.74747238911715
+Iteration 2, Errors: 468.636612993786
+Iteration 3, Errors: 466.6801144533071
+Iteration 4, Errors: 465.56154052423955
+Iteration 5, Errors: 464.6659251006765
+Iteration 6, Errors: 463.7691939229728
+Iteration 7, Errors: 462.9124962304058
+Iteration 8, Errors: 463.0265449268199
+Ended. Iteration 9, Errors: 463.0265449268199
+k=3, Round: 5
+Initial Errors: 537.5626229287253
+Iteration 0, Errors: 479.4071852595503
+Iteration 1, Errors: 461.8777001424061
+Iteration 2, Errors: 452.83398708215526
+Iteration 3, Errors: 451.0491602201896
+Iteration 4, Errors: 451.07497363222257
+Ended. Iteration 5, Errors: 451.07497363222257
+k=3, Round: 6
+Initial Errors: 494.94533312919106
+Iteration 0, Errors: 441.15325299119064
+Iteration 1, Errors: 429.61539860358295
+Iteration 2, Errors: 421.94690965577246
+Iteration 3, Errors: 414.5660029607573
+Iteration 4, Errors: 409.99158825243023
+Iteration 5, Errors: 410.48079291726765
+Iteration 6, Errors: 410.8167979504399
+Iteration 7, Errors: 411.05188471508535
+Ended. Iteration 8, Errors: 411.05188471508535
+k=3, Round: 7
+Initial Errors: 486.64563308581785
+Iteration 0, Errors: 465.45191573977706
+Iteration 1, Errors: 433.1848052239307
+Iteration 2, Errors: 428.89466939046866
+Iteration 3, Errors: 425.3465720026119
+Iteration 4, Errors: 424.87665625218517
+Iteration 5, Errors: 424.66688841374537
+Iteration 6, Errors: 424.2449734896465
+Iteration 7, Errors: 423.33846897155297
+Iteration 8, Errors: 422.1981053894635
+Iteration 9, Errors: 420.1384891826498
+Iteration 10, Errors: 417.55844994507873
+Iteration 11, Errors: 413.76959970949713
+Iteration 12, Errors: 411.2555537885767
+Iteration 13, Errors: 411.34080339937424
+Iteration 14, Errors: 411.1556074460564
+Ended. Iteration 15, Errors: 411.1556074460564
+k=3, Round: 8
+Initial Errors: 508.8370535360777
+Iteration 0, Errors: 452.0673471341105
+Iteration 1, Errors: 440.86681789883033
+Iteration 2, Errors: 438.68331547065
+Iteration 3, Errors: 435.84430803719283
+Iteration 4, Errors: 433.46651456320336
+Iteration 5, Errors: 428.226705089489
+Iteration 6, Errors: 428.0104673560926
+Iteration 7, Errors: 427.78661901430127
+Iteration 8, Errors: 426.3108070521508
+Iteration 9, Errors: 426.8508788482153
+Iteration 10, Errors: 427.4564271130165
+Iteration 11, Errors: 427.5945268108433
+Ended. Iteration 12, Errors: 427.5945268108433
+k=3, Round: 9
+Initial Errors: 528.4701540561006
+Iteration 0, Errors: 489.9712772303198
+Iteration 1, Errors: 488.56659799374484
+Iteration 2, Errors: 464.85461125558277
+Iteration 3, Errors: 427.3874862329558
+Iteration 4, Errors: 423.9493307905891
+Iteration 5, Errors: 422.4122526850214
+Iteration 6, Errors: 422.4596705215982
+Ended. Iteration 7, Errors: 422.4596705215982
+Best errors: 411.05188471508535
+k=4, Round: 0
+Initial Errors: 444.4037852842084
+Iteration 0, Errors: 393.009892354165
+Iteration 1, Errors: 375.7615389883496
+Iteration 2, Errors: 373.1191485221203
+Iteration 3, Errors: 373.1015491470845
+Iteration 4, Errors: 373.05802211736847
+Iteration 5, Errors: 373.1734098534101
+Ended. Iteration 6, Errors: 373.1734098534101
+k=4, Round: 1
+Initial Errors: 452.7144724837419
+Iteration 0, Errors: 446.3335827203723
+Iteration 1, Errors: 431.616860195148
+Iteration 2, Errors: 386.55444199322756
+Iteration 3, Errors: 379.03634749924635
+Iteration 4, Errors: 377.58397664149084
+Ended. Iteration 5, Errors: 377.58397664149084
+k=4, Round: 2
+Initial Errors: 487.5237511636722
+Iteration 0, Errors: 478.5443470906577
+Iteration 1, Errors: 458.0774037297768
+Iteration 2, Errors: 449.323272139245
+Iteration 3, Errors: 447.33711827746623
+Iteration 4, Errors: 446.8712484996903
+Iteration 5, Errors: 446.621930860931
+Ended. Iteration 6, Errors: 446.621930860931
+k=4, Round: 3
+Initial Errors: 458.63528611449027
+Iteration 0, Errors: 429.58684653391305
+Iteration 1, Errors: 425.026431357785
+Iteration 2, Errors: 413.0636090949885
+Iteration 3, Errors: 382.39892224512494
+Iteration 4, Errors: 374.632506263492
+Iteration 5, Errors: 374.20071581406916
+Iteration 6, Errors: 374.2247746496955
+Ended. Iteration 7, Errors: 374.2247746496955
+k=4, Round: 4
+Initial Errors: 443.5756229729941
+Iteration 0, Errors: 405.67804264712663
+Iteration 1, Errors: 403.79615863149814
+Iteration 2, Errors: 403.45757394117567
+Iteration 3, Errors: 402.73901692946697
+Iteration 4, Errors: 402.98680820513465
+Ended. Iteration 5, Errors: 402.98680820513465
+k=4, Round: 5
+Initial Errors: 483.8280991664626
+Iteration 0, Errors: 453.7005689481246
+Iteration 1, Errors: 421.56541780575975
+Iteration 2, Errors: 406.62777668017134
+Iteration 3, Errors: 398.01137806935935
+Iteration 4, Errors: 396.56687341386714
+Iteration 5, Errors: 396.20230320192053
+Ended. Iteration 6, Errors: 396.20230320192053
+k=4, Round: 6
+Initial Errors: 471.9404338530853
+Iteration 0, Errors: 434.0868580654839
+Iteration 1, Errors: 437.0143200331327
+Iteration 2, Errors: 436.7429330687414
+Iteration 3, Errors: 437.05947174196547
+Iteration 4, Errors: 436.7288481104542
+Iteration 5, Errors: 436.6932504137267
+Ended. Iteration 6, Errors: 436.6932504137267
+k=4, Round: 7
+Initial Errors: 440.9378512413784
+Iteration 0, Errors: 413.1606310599799
+Iteration 1, Errors: 382.58091853721794
+Iteration 2, Errors: 374.8713546313122
+Iteration 3, Errors: 373.36890078210104
+Iteration 4, Errors: 373.3106625280567
+Iteration 5, Errors: 373.1734098534101
+Ended. Iteration 6, Errors: 373.1734098534101
+k=4, Round: 8
+Initial Errors: 491.92325107666346
+Iteration 0, Errors: 432.01640303315185
+Iteration 1, Errors: 403.17685208096657
+Iteration 2, Errors: 389.52793672762243
+Iteration 3, Errors: 385.01372134189535
+Iteration 4, Errors: 383.16095250506527
+Iteration 5, Errors: 382.85227198034454
+Iteration 6, Errors: 383.0121312990088
+Iteration 7, Errors: 383.1503659394181
+Iteration 8, Errors: 383.01388854825376
+Ended. Iteration 9, Errors: 383.01388854825376
+k=4, Round: 9
+Initial Errors: 506.32746002538846
+Iteration 0, Errors: 447.2147218638151
+Iteration 1, Errors: 444.4119517920191
+Iteration 2, Errors: 438.43548773906474
+Iteration 3, Errors: 432.46503313648833
+Iteration 4, Errors: 420.83499991811595
+Iteration 5, Errors: 414.5297970735533
+Iteration 6, Errors: 409.45406479578577
+Iteration 7, Errors: 401.89954349932583
+Iteration 8, Errors: 397.61678638393744
+Iteration 9, Errors: 396.7417225162816
+Iteration 10, Errors: 396.8674157856885
+Iteration 11, Errors: 396.6503648310086
+Iteration 12, Errors: 396.0683479085175
+Iteration 13, Errors: 395.82893498727253
+Ended. Iteration 14, Errors: 395.82893498727253
+Best errors: 373.1734098534101
+k=5, Round: 0
+Initial Errors: 431.02906734534395
+Iteration 0, Errors: 392.2469362199292
+Iteration 1, Errors: 373.2503638435576
+Iteration 2, Errors: 366.488846732607
+Iteration 3, Errors: 365.213338052842
+Iteration 4, Errors: 365.908667782124
+Iteration 5, Errors: 366.5076417353881
+Iteration 6, Errors: 364.886573851208
+Iteration 7, Errors: 361.21931753409706
+Iteration 8, Errors: 354.3784986808502
+Iteration 9, Errors: 350.77988078503597
+Iteration 10, Errors: 348.2552061625945
+Iteration 11, Errors: 346.78502389016245
+Iteration 12, Errors: 346.11674300013874
+Iteration 13, Errors: 345.92087372644323
+Iteration 14, Errors: 345.7291626469347
+Ended. Iteration 15, Errors: 345.7291626469347
+k=5, Round: 1
+Initial Errors: 499.46639653178465
+Iteration 0, Errors: 396.6187762098501
+Iteration 1, Errors: 360.5192338541933
+Iteration 2, Errors: 354.407531481204
+Iteration 3, Errors: 352.28012420250246
+Iteration 4, Errors: 351.7083784146073
+Iteration 5, Errors: 351.7489284091483
+Ended. Iteration 6, Errors: 351.7489284091483
+k=5, Round: 2
+Initial Errors: 509.6205741776371
+Iteration 0, Errors: 369.13080968427926
+Iteration 1, Errors: 365.4328877606559
+Iteration 2, Errors: 365.77356071551134
+Ended. Iteration 3, Errors: 365.77356071551134
+k=5, Round: 3
+Initial Errors: 424.927090182378
+Iteration 0, Errors: 384.75676423379946
+Iteration 1, Errors: 357.5737121166044
+Iteration 2, Errors: 347.9918326089263
+Iteration 3, Errors: 345.11483822782884
+Iteration 4, Errors: 345.7692457246516
+Iteration 5, Errors: 345.94810955015413
+Iteration 6, Errors: 345.9802834639205
+Iteration 7, Errors: 345.9231661464163
+Iteration 8, Errors: 346.00142798351965
+Iteration 9, Errors: 346.2876271763936
+Ended. Iteration 10, Errors: 346.2876271763936
+k=5, Round: 4
+Initial Errors: 470.81801609332564
+Iteration 0, Errors: 422.92049611617995
+Iteration 1, Errors: 407.25524033138186
+Iteration 2, Errors: 395.2527587887868
+Iteration 3, Errors: 381.9232982146279
+Iteration 4, Errors: 372.7618889992525
+Iteration 5, Errors: 366.2872977532638
+Iteration 6, Errors: 364.25228587242816
+Iteration 7, Errors: 358.2444531623187
+Iteration 8, Errors: 357.61234054064283
+Iteration 9, Errors: 356.83973217560214
+Iteration 10, Errors: 356.7500372804523
+Ended. Iteration 11, Errors: 356.7500372804523
+k=5, Round: 5
+Initial Errors: 474.1729735345367
+Iteration 0, Errors: 415.33871660916884
+Iteration 1, Errors: 379.0973638405437
+Iteration 2, Errors: 370.02092081392766
+Iteration 3, Errors: 370.16612974456996
+Iteration 4, Errors: 370.5328420120994
+Iteration 5, Errors: 370.3003154934572
+Ended. Iteration 6, Errors: 370.3003154934572
+k=5, Round: 6
+Initial Errors: 458.88304388794813
+Iteration 0, Errors: 424.0977687948921
+Iteration 1, Errors: 414.97379926184516
+Iteration 2, Errors: 409.02827135823105
+Iteration 3, Errors: 398.5259195809128
+Iteration 4, Errors: 389.93203620135193
+Iteration 5, Errors: 370.8950312844327
+Iteration 6, Errors: 359.75779411654366
+Iteration 7, Errors: 355.8153585704249
+Iteration 8, Errors: 355.69402788221225
+Ended. Iteration 9, Errors: 355.69402788221225
+k=5, Round: 7
+Initial Errors: 438.4966681211412
+Iteration 0, Errors: 382.25950896361513
+Iteration 1, Errors: 380.6007867837973
+Iteration 2, Errors: 375.3406403018592
+Iteration 3, Errors: 367.1963713629697
+Iteration 4, Errors: 359.0499939847947
+Iteration 5, Errors: 358.2059628218463
+Iteration 6, Errors: 357.5647775469889
+Iteration 7, Errors: 356.7944244294481
+Iteration 8, Errors: 356.13802412544635
+Iteration 9, Errors: 354.23093401392794
+Iteration 10, Errors: 353.6705758534542
+Iteration 11, Errors: 353.76998839190895
+Ended. Iteration 12, Errors: 353.76998839190895
+k=5, Round: 8
+Initial Errors: 445.1700116952181
+Iteration 0, Errors: 380.66116811670344
+Iteration 1, Errors: 366.09015348962373
+Iteration 2, Errors: 361.7298573385531
+Iteration 3, Errors: 358.4238911595037
+Iteration 4, Errors: 358.40381654326444
+Ended. Iteration 5, Errors: 358.40381654326444
+k=5, Round: 9
+Initial Errors: 448.1096855912642
+Iteration 0, Errors: 394.0599421782538
+Iteration 1, Errors: 381.783442512551
+Iteration 2, Errors: 378.29132441418056
+Iteration 3, Errors: 378.53275367239337
+Iteration 4, Errors: 377.47962971004523
+Iteration 5, Errors: 373.50858926172555
+Iteration 6, Errors: 370.25210776244296
+Iteration 7, Errors: 365.84989808465826
+Iteration 8, Errors: 361.17126109411697
+Iteration 9, Errors: 356.3505828751823
+Iteration 10, Errors: 353.6971903645744
+Iteration 11, Errors: 353.0698028363161
+Iteration 12, Errors: 352.8648787684974
+Ended. Iteration 13, Errors: 352.8648787684974
+Best errors: 345.7291626469347
+k=6, Round: 0
+Initial Errors: 382.5519703681517
+Iteration 0, Errors: 347.27993159632763
+Iteration 1, Errors: 346.74021806620954
+Iteration 2, Errors: 346.81961029789323
+Iteration 3, Errors: 346.8101941138287
+Iteration 4, Errors: 347.1806407874056
+Iteration 5, Errors: 346.1843961205377
+Iteration 6, Errors: 343.5455231307595
+Iteration 7, Errors: 336.68282285881025
+Iteration 8, Errors: 332.4065345219894
+Iteration 9, Errors: 332.4397311134729
+Iteration 10, Errors: 332.19959375931955
+Ended. Iteration 11, Errors: 332.19959375931955
+k=6, Round: 1
+Initial Errors: 408.2718885067542
+Iteration 0, Errors: 356.95427258446904
+Iteration 1, Errors: 348.93289210046476
+Iteration 2, Errors: 344.6925996045803
+Iteration 3, Errors: 337.43226998601835
+Iteration 4, Errors: 329.4382946298321
+Iteration 5, Errors: 328.4784142289697
+Ended. Iteration 6, Errors: 328.4784142289697
+k=6, Round: 2
+Initial Errors: 420.48889673229303
+Iteration 0, Errors: 361.16681774117586
+Iteration 1, Errors: 350.53624518521883
+Iteration 2, Errors: 350.60681408879896
+Iteration 3, Errors: 346.4919345868286
+Iteration 4, Errors: 341.8802396517882
+Iteration 5, Errors: 337.12616793851737
+Iteration 6, Errors: 334.9674965363807
+Iteration 7, Errors: 332.3223539180874
+Iteration 8, Errors: 329.6478358033242
+Iteration 9, Errors: 328.312010171649
+Ended. Iteration 10, Errors: 328.312010171649
+k=6, Round: 3
+Initial Errors: 420.8797910380055
+Iteration 0, Errors: 374.81246133482654
+Iteration 1, Errors: 351.6284030710428
+Iteration 2, Errors: 340.1681932360297
+Iteration 3, Errors: 337.4047255672267
+Iteration 4, Errors: 338.9144888032575
+Iteration 5, Errors: 339.37211524150973
+Iteration 6, Errors: 339.2814530302445
+Iteration 7, Errors: 335.52092764291604
+Iteration 8, Errors: 332.65346896487085
+Iteration 9, Errors: 327.07495697400236
+Ended. Iteration 10, Errors: 327.07495697400236
+k=6, Round: 4
+Initial Errors: 416.18478414881685
+Iteration 0, Errors: 395.3595493268349
+Iteration 1, Errors: 390.8789192270547
+Iteration 2, Errors: 386.1808153866774
+Iteration 3, Errors: 384.9025301528573
+Iteration 4, Errors: 383.0359167128651
+Iteration 5, Errors: 380.5826122214086
+Iteration 6, Errors: 380.501473956751
+Iteration 7, Errors: 380.4093627662447
+Ended. Iteration 8, Errors: 380.4093627662447
+k=6, Round: 5
+Initial Errors: 485.4865776488176
+Iteration 0, Errors: 372.08609453328995
+Iteration 1, Errors: 354.14143844016866
+Iteration 2, Errors: 353.773212522214
+Iteration 3, Errors: 353.7412412520585
+Iteration 4, Errors: 353.6395388587976
+Iteration 5, Errors: 353.7349805692156
+Iteration 6, Errors: 353.7411459777133
+Iteration 7, Errors: 353.9282185234662
+Iteration 8, Errors: 354.77951670282977
+Iteration 9, Errors: 355.202070851907
+Iteration 10, Errors: 354.5282456369215
+Iteration 11, Errors: 351.3866344639574
+Iteration 12, Errors: 344.758541658522
+Iteration 13, Errors: 340.9318707040263
+Iteration 14, Errors: 338.5900769466331
+Iteration 15, Errors: 336.9326580120937
+Iteration 16, Errors: 336.77236249174587
+Iteration 17, Errors: 336.5824355929079
+Ended. Iteration 18, Errors: 336.5824355929079
+k=6, Round: 6
+Initial Errors: 379.9716002497897
+Iteration 0, Errors: 349.87128930871916
+Iteration 1, Errors: 341.23669375305104
+Iteration 2, Errors: 340.00528520909495
+Iteration 3, Errors: 339.2347924182187
+Iteration 4, Errors: 338.49867605813597
+Iteration 5, Errors: 337.1981978678634
+Iteration 6, Errors: 336.4641798652205
+Iteration 7, Errors: 335.8572453636944
+Iteration 8, Errors: 335.66071494490035
+Ended. Iteration 9, Errors: 335.66071494490035
+k=6, Round: 7
+Initial Errors: 390.2516574319761
+Iteration 0, Errors: 330.49726040011353
+Iteration 1, Errors: 328.54261319542184
+Iteration 2, Errors: 328.50950249195694
+Ended. Iteration 3, Errors: 328.50950249195694
+k=6, Round: 8
+Initial Errors: 470.1125055643897
+Iteration 0, Errors: 361.39149110753
+Iteration 1, Errors: 343.03905247664903
+Iteration 2, Errors: 341.977257821346
+Iteration 3, Errors: 342.0695374597984
+Iteration 4, Errors: 341.9127411485413
+Ended. Iteration 5, Errors: 341.9127411485413
+k=6, Round: 9
+Initial Errors: 413.57677143305415
+Iteration 0, Errors: 361.1966211658202
+Iteration 1, Errors: 352.06571445792264
+Iteration 2, Errors: 350.02511558413073
+Iteration 3, Errors: 349.27988460130086
+Iteration 4, Errors: 347.97637095123747
+Iteration 5, Errors: 345.7553718981471
+Iteration 6, Errors: 343.7041257391735
+Iteration 7, Errors: 337.39352268394873
+Iteration 8, Errors: 334.9876727603076
+Iteration 9, Errors: 334.81821284466815
+Iteration 10, Errors: 334.8928773181493
+Ended. Iteration 11, Errors: 334.8928773181493
+Best errors: 327.07495697400236
+k=7, Round: 0
+Initial Errors: 415.4807834754789
+Iteration 0, Errors: 354.96000897172627
+Iteration 1, Errors: 355.285315704592
+Iteration 2, Errors: 355.6506045574268
+Iteration 3, Errors: 355.33219517680413
+Iteration 4, Errors: 354.44920187856957
+Iteration 5, Errors: 353.55397367863674
+Iteration 6, Errors: 352.8176725256137
+Iteration 7, Errors: 353.02303029494675
+Iteration 8, Errors: 351.71827014306064
+Iteration 9, Errors: 350.51056614265536
+Iteration 10, Errors: 349.59687472828
+Iteration 11, Errors: 349.37487470605026
+Ended. Iteration 12, Errors: 349.37487470605026
+k=7, Round: 1
+Initial Errors: 403.778800114624
+Iteration 0, Errors: 361.95008703905
+Iteration 1, Errors: 349.6351892983095
+Iteration 2, Errors: 339.5316525917883
+Iteration 3, Errors: 335.6008818896459
+Iteration 4, Errors: 335.91545835606814
+Iteration 5, Errors: 335.8287064773857
+Iteration 6, Errors: 335.36764052306734
+Iteration 7, Errors: 334.49207889416954
+Iteration 8, Errors: 334.0649981498097
+Iteration 9, Errors: 333.90877964618863
+Iteration 10, Errors: 334.05550748298225
+Iteration 11, Errors: 333.98864344350153
+Iteration 12, Errors: 334.3915390085914
+Iteration 13, Errors: 334.18012038818466
+Iteration 14, Errors: 334.12431473539334
+Iteration 15, Errors: 333.9719080871465
+Iteration 16, Errors: 333.86429347119696
+Iteration 17, Errors: 333.6943311564367
+Iteration 18, Errors: 333.4846386233444
+Iteration 19, Errors: 333.40265163653027
+Iteration 20, Errors: 333.2586517606743
+Iteration 21, Errors: 333.56953993033034
+Iteration 22, Errors: 331.5449691950436
+Iteration 23, Errors: 324.9789030146682
+Iteration 24, Errors: 320.88842960107684
+Iteration 25, Errors: 319.1919313589696
+Iteration 26, Errors: 319.09705775999674
+Iteration 27, Errors: 318.69367963548825
+Iteration 28, Errors: 318.4774626913149
+Iteration 29, Errors: 318.41087134731583
+Ended. Iteration 30, Errors: 318.41087134731583
+k=7, Round: 2
+Initial Errors: 412.5978197473106
+Iteration 0, Errors: 373.15329900001547
+Iteration 1, Errors: 361.01898430649464
+Iteration 2, Errors: 351.6453239760683
+Iteration 3, Errors: 337.17382239946824
+Iteration 4, Errors: 330.9335495407837
+Iteration 5, Errors: 327.87286817811474
+Iteration 6, Errors: 326.7054515642009
+Iteration 7, Errors: 322.33585084412096
+Iteration 8, Errors: 319.7709580067779
+Iteration 9, Errors: 319.88483133551455
+Iteration 10, Errors: 319.77775875605766
+Ended. Iteration 11, Errors: 319.77775875605766
+k=7, Round: 3
+Initial Errors: 376.6867564984667
+Iteration 0, Errors: 347.48088246456007
+Iteration 1, Errors: 343.741753822566
+Iteration 2, Errors: 342.16651765167586
+Iteration 3, Errors: 332.5999487405692
+Iteration 4, Errors: 321.19692935761407
+Iteration 5, Errors: 318.3158800682864
+Iteration 6, Errors: 318.4076965500775
+Iteration 7, Errors: 318.9518201597757
+Ended. Iteration 8, Errors: 318.9518201597757
+k=7, Round: 4
+Initial Errors: 435.83727815929785
+Iteration 0, Errors: 384.8554324272539
+Iteration 1, Errors: 340.0389160737296
+Iteration 2, Errors: 332.6968030396884
+Iteration 3, Errors: 329.3658457592723
+Iteration 4, Errors: 329.21574164989323
+Iteration 5, Errors: 329.0294690777972
+Iteration 6, Errors: 329.28609521887154
+Iteration 7, Errors: 329.4389927246567
+Ended. Iteration 8, Errors: 329.4389927246567
+k=7, Round: 5
+Initial Errors: 432.96556575706825
+Iteration 0, Errors: 352.4959044135296
+Iteration 1, Errors: 325.0403348061353
+Iteration 2, Errors: 316.3970775276507
+Iteration 3, Errors: 315.28588107262186
+Ended. Iteration 4, Errors: 315.28588107262186
+k=7, Round: 6
+Initial Errors: 390.3167802852635
+Iteration 0, Errors: 343.3777823088723
+Iteration 1, Errors: 335.7362793307463
+Iteration 2, Errors: 330.9804083143065
+Iteration 3, Errors: 330.19427010809807
+Iteration 4, Errors: 325.8170995114004
+Iteration 5, Errors: 317.0992928772315
+Iteration 6, Errors: 316.54711498595464
+Iteration 7, Errors: 316.4921506822099
+Iteration 8, Errors: 316.4475385618943
+Iteration 9, Errors: 316.42629905177614
+Ended. Iteration 10, Errors: 316.42629905177614
+k=7, Round: 7
+Initial Errors: 385.75327111419716
+Iteration 0, Errors: 349.9561165228856
+Iteration 1, Errors: 337.2650578144648
+Iteration 2, Errors: 332.0307033372586
+Iteration 3, Errors: 331.4986486801365
+Iteration 4, Errors: 330.63608347854745
+Iteration 5, Errors: 330.70570095965104
+Iteration 6, Errors: 331.0509217221957
+Iteration 7, Errors: 327.88710498635834
+Iteration 8, Errors: 324.23753492599917
+Iteration 9, Errors: 323.19113686105527
+Iteration 10, Errors: 323.2081515134312
+Iteration 11, Errors: 323.22241514263015
+Ended. Iteration 12, Errors: 323.22241514263015
+k=7, Round: 8
+Initial Errors: 376.3408902992237
+Iteration 0, Errors: 357.8164988273079
+Iteration 1, Errors: 347.89065334068783
+Iteration 2, Errors: 345.4525592383069
+Iteration 3, Errors: 344.31937563407064
+Iteration 4, Errors: 336.08114428697354
+Iteration 5, Errors: 335.91995517202554
+Iteration 6, Errors: 335.1273249164111
+Iteration 7, Errors: 335.048956963372
+Iteration 8, Errors: 335.0705941037797
+Iteration 9, Errors: 335.0105681294125
+Ended. Iteration 10, Errors: 335.0105681294125
+k=7, Round: 9
+Initial Errors: 412.3665600957164
+Iteration 0, Errors: 372.1737051274876
+Iteration 1, Errors: 353.2111330595437
+Iteration 2, Errors: 334.25894830990296
+Iteration 3, Errors: 327.1916946076387
+Iteration 4, Errors: 324.66819363586825
+Iteration 5, Errors: 323.156656679711
+Iteration 6, Errors: 322.5035696031244
+Iteration 7, Errors: 322.0744210335979
+Iteration 8, Errors: 321.6951300807771
+Ended. Iteration 9, Errors: 321.6951300807771
+Best errors: 315.28588107262186
+k=8, Round: 0
+Initial Errors: 390.0908149057776
+Iteration 0, Errors: 351.060637823022
+Iteration 1, Errors: 346.8255565518582
+Iteration 2, Errors: 337.08740401794574
+Iteration 3, Errors: 325.2595941191315
+Iteration 4, Errors: 322.13375232932395
+Iteration 5, Errors: 317.6617475253011
+Iteration 6, Errors: 311.2067615883348
+Iteration 7, Errors: 309.32339584234904
+Ended. Iteration 8, Errors: 309.32339584234904
+k=8, Round: 1
+Initial Errors: 415.41770659915227
+Iteration 0, Errors: 355.1923965409879
+Iteration 1, Errors: 324.80416748055734
+Iteration 2, Errors: 323.3643506372408
+Iteration 3, Errors: 322.1052039682512
+Iteration 4, Errors: 321.840480159631
+Iteration 5, Errors: 321.0905211904866
+Iteration 6, Errors: 321.03894988253467
+Iteration 7, Errors: 320.7261754777038
+Iteration 8, Errors: 320.4658691317632
+Ended. Iteration 9, Errors: 320.4658691317632
+k=8, Round: 2
+Initial Errors: 440.10905871828356
+Iteration 0, Errors: 350.85040139518105
+Iteration 1, Errors: 315.7073074632878
+Iteration 2, Errors: 313.5881648838735
+Iteration 3, Errors: 313.577621183813
+Iteration 4, Errors: 309.14206987468424
+Iteration 5, Errors: 306.7118395207162
+Iteration 6, Errors: 304.1984649930756
+Iteration 7, Errors: 301.71521917295735
+Iteration 8, Errors: 301.48966549446664
+Iteration 9, Errors: 301.3634987315515
+Iteration 10, Errors: 301.42026895768674
+Ended. Iteration 11, Errors: 301.42026895768674
+k=8, Round: 3
+Initial Errors: 451.6688435939883
+Iteration 0, Errors: 391.28378760847016
+Iteration 1, Errors: 359.2200420560062
+Iteration 2, Errors: 338.9195818974909
+Iteration 3, Errors: 330.4057319378513
+Iteration 4, Errors: 319.98869111668466
+Iteration 5, Errors: 317.17116032141263
+Iteration 6, Errors: 315.2417133914951
+Iteration 7, Errors: 314.6089473223153
+Iteration 8, Errors: 313.55693656581855
+Iteration 9, Errors: 313.0979932866778
+Iteration 10, Errors: 312.62504833264717
+Iteration 11, Errors: 308.9969586203902
+Iteration 12, Errors: 308.1417552794519
+Iteration 13, Errors: 308.0087931568475
+Iteration 14, Errors: 307.9922159875401
+Ended. Iteration 15, Errors: 307.9922159875401
+k=8, Round: 4
+Initial Errors: 450.9897994394838
+Iteration 0, Errors: 412.2699195687135
+Iteration 1, Errors: 402.9532673390823
+Iteration 2, Errors: 391.99500801708973
+Iteration 3, Errors: 364.02639995535554
+Iteration 4, Errors: 317.0498145690284
+Iteration 5, Errors: 314.38958882725274
+Iteration 6, Errors: 313.74562357478345
+Iteration 7, Errors: 312.81529834231037
+Iteration 8, Errors: 311.0876275213598
+Iteration 9, Errors: 309.85877207235524
+Ended. Iteration 10, Errors: 309.85877207235524
+k=8, Round: 5
+Initial Errors: 408.64739865123465
+Iteration 0, Errors: 339.58741142004124
+Iteration 1, Errors: 322.6033583669957
+Iteration 2, Errors: 311.9658094922437
+Iteration 3, Errors: 312.173481292848
+Iteration 4, Errors: 311.9715075862761
+Iteration 5, Errors: 312.46254231986927
+Iteration 6, Errors: 312.3181355868578
+Iteration 7, Errors: 310.7438398313931
+Iteration 8, Errors: 307.67437340632034
+Iteration 9, Errors: 306.08968318650545
+Iteration 10, Errors: 304.33059698681456
+Iteration 11, Errors: 303.2095306207265
+Iteration 12, Errors: 302.0042125556443
+Iteration 13, Errors: 302.12812470325093
+Iteration 14, Errors: 301.94723465304526
+Iteration 15, Errors: 301.9264321093991
+Iteration 16, Errors: 301.7135208151254
+Iteration 17, Errors: 301.68514126705657
+Iteration 18, Errors: 301.63466441142117
+Iteration 19, Errors: 301.55775385856003
+Iteration 20, Errors: 301.40816770845123
+Iteration 21, Errors: 301.41759593420034
+Ended. Iteration 22, Errors: 301.41759593420034
+k=8, Round: 6
+Initial Errors: 411.3070758496402
+Iteration 0, Errors: 380.9953489094992
+Iteration 1, Errors: 356.5631590279661
+Iteration 2, Errors: 329.56152070740035
+Iteration 3, Errors: 323.3276441275629
+Iteration 4, Errors: 320.59889327893916
+Iteration 5, Errors: 320.11126756989626
+Iteration 6, Errors: 319.9135501877397
+Iteration 7, Errors: 319.5388596726891
+Iteration 8, Errors: 320.0217493028715
+Ended. Iteration 9, Errors: 320.0217493028715
+k=8, Round: 7
+Initial Errors: 407.9302587352686
+Iteration 0, Errors: 355.35558387898146
+Iteration 1, Errors: 320.22468424493843
+Iteration 2, Errors: 317.1915536295773
+Iteration 3, Errors: 314.6678425722739
+Iteration 4, Errors: 313.42591974697757
+Iteration 5, Errors: 312.7576881471967
+Iteration 6, Errors: 312.3968329950665
+Iteration 7, Errors: 312.58326912639313
+Ended. Iteration 8, Errors: 312.58326912639313
+k=8, Round: 8
+Initial Errors: 393.24539403638175
+Iteration 0, Errors: 346.89631129254104
+Iteration 1, Errors: 343.64039799840384
+Iteration 2, Errors: 344.6743016637834
+Iteration 3, Errors: 346.89845387069494
+Iteration 4, Errors: 347.4409160977053
+Iteration 5, Errors: 348.7282150807047
+Iteration 6, Errors: 346.4294391556562
+Iteration 7, Errors: 341.90660592275503
+Iteration 8, Errors: 341.3293055633903
+Iteration 9, Errors: 341.14865854975875
+Ended. Iteration 10, Errors: 341.14865854975875
+k=8, Round: 9
+Initial Errors: 437.6201469487177
+Iteration 0, Errors: 358.8772255398721
+Iteration 1, Errors: 323.4987955316109
+Iteration 2, Errors: 311.63240640230896
+Iteration 3, Errors: 308.5418428579453
+Iteration 4, Errors: 307.0713167424492
+Iteration 5, Errors: 306.93626993227724
+Iteration 6, Errors: 307.06477196277007
+Iteration 7, Errors: 306.97488576687783
+Iteration 8, Errors: 307.06036052728234
+Iteration 9, Errors: 307.06942176200965
+Iteration 10, Errors: 307.150919802141
+Iteration 11, Errors: 306.94313847399724
+Iteration 12, Errors: 307.03752929275487
+Iteration 13, Errors: 307.19344811854927
+Iteration 14, Errors: 307.2880595916429
+Ended. Iteration 15, Errors: 307.2880595916429
+Best errors: 301.41759593420034
+k=9, Round: 0
+Initial Errors: 424.37801527914615
+Iteration 0, Errors: 352.75919617593445
+Iteration 1, Errors: 318.39911816055746
+Iteration 2, Errors: 316.5196890813428
+Iteration 3, Errors: 315.49484970571996
+Iteration 4, Errors: 314.880516822147
+Ended. Iteration 5, Errors: 314.880516822147
+k=9, Round: 1
+Initial Errors: 334.82034826013637
+Iteration 0, Errors: 299.181439960171
+Iteration 1, Errors: 293.0373732518724
+Iteration 2, Errors: 291.6758032748132
+Iteration 3, Errors: 291.52163548808556
+Iteration 4, Errors: 291.20639890951367
+Iteration 5, Errors: 290.4477804765577
+Iteration 6, Errors: 290.1529831334852
+Iteration 7, Errors: 290.122514627721
+Ended. Iteration 8, Errors: 290.122514627721
+k=9, Round: 2
+Initial Errors: 397.62154167604996
+Iteration 0, Errors: 353.48557319716326
+Iteration 1, Errors: 320.26845891300593
+Iteration 2, Errors: 316.0975119922742
+Iteration 3, Errors: 315.9873028314939
+Iteration 4, Errors: 316.10749643946
+Iteration 5, Errors: 316.19010795161006
+Ended. Iteration 6, Errors: 316.19010795161006
+k=9, Round: 3
+Initial Errors: 368.01747918308155
+Iteration 0, Errors: 325.67702211035487
+Iteration 1, Errors: 304.6210397682475
+Iteration 2, Errors: 302.610627790414
+Iteration 3, Errors: 301.68142907840996
+Ended. Iteration 4, Errors: 301.68142907840996
+k=9, Round: 4
+Initial Errors: 376.3802949731757
+Iteration 0, Errors: 319.8645675668296
+Iteration 1, Errors: 309.7637166582526
+Iteration 2, Errors: 307.3292233039921
+Iteration 3, Errors: 303.3411945350701
+Iteration 4, Errors: 295.2790865494095
+Ended. Iteration 5, Errors: 295.2790865494095
+k=9, Round: 5
+Initial Errors: 330.8173026894233
+Iteration 0, Errors: 312.50799034491945
+Iteration 1, Errors: 312.42143824008957
+Iteration 2, Errors: 311.1461659122936
+Iteration 3, Errors: 305.1208918064259
+Iteration 4, Errors: 301.6291381902308
+Iteration 5, Errors: 300.26822547986967
+Iteration 6, Errors: 299.55015688856366
+Iteration 7, Errors: 299.62793908972526
+Ended. Iteration 8, Errors: 299.62793908972526
+k=9, Round: 6
+Initial Errors: 350.10556646538396
+Iteration 0, Errors: 310.5555218354486
+Iteration 1, Errors: 301.52929761067924
+Iteration 2, Errors: 299.20895966005855
+Iteration 3, Errors: 298.33605721463846
+Iteration 4, Errors: 298.2303109287423
+Iteration 5, Errors: 298.2558447398633
+Iteration 6, Errors: 298.16215288560136
+Iteration 7, Errors: 298.0737172007264
+Iteration 8, Errors: 297.701825010119
+Iteration 9, Errors: 297.42780332183446
+Iteration 10, Errors: 297.0945938176785
+Iteration 11, Errors: 296.7788183686131
+Iteration 12, Errors: 296.82049896825254
+Iteration 13, Errors: 296.7808270991639
+Iteration 14, Errors: 296.7666979187804
+Iteration 15, Errors: 296.58105300440434
+Iteration 16, Errors: 296.30254062976894
+Iteration 17, Errors: 296.6235375294773
+Iteration 18, Errors: 296.52732190597766
+Iteration 19, Errors: 296.2387063114843
+Ended. Iteration 20, Errors: 296.2387063114843
+k=9, Round: 7
+Initial Errors: 424.93254670826786
+Iteration 0, Errors: 366.24251409504853
+Iteration 1, Errors: 335.68038896878153
+Iteration 2, Errors: 310.42607716053703
+Iteration 3, Errors: 304.554346766681
+Iteration 4, Errors: 304.003097602329
+Iteration 5, Errors: 301.91245722495006
+Iteration 6, Errors: 299.8813507954586
+Iteration 7, Errors: 298.6234878675798
+Iteration 8, Errors: 295.7067488438399
+Iteration 9, Errors: 295.56946347333565
+Iteration 10, Errors: 295.69098765834303
+Ended. Iteration 11, Errors: 295.69098765834303
+k=9, Round: 8
+Initial Errors: 359.21202602276344
+Iteration 0, Errors: 328.5732994304815
+Iteration 1, Errors: 311.5238355841729
+Iteration 2, Errors: 303.67040941658746
+Iteration 3, Errors: 299.4845617201895
+Iteration 4, Errors: 298.2576503815534
+Iteration 5, Errors: 298.4574569781633
+Iteration 6, Errors: 298.41723035553946
+Ended. Iteration 7, Errors: 298.41723035553946
+k=9, Round: 9
+Initial Errors: 370.79726726080673
+Iteration 0, Errors: 330.2433266134669
+Iteration 1, Errors: 316.4344225560813
+Iteration 2, Errors: 310.56812432038214
+Iteration 3, Errors: 309.6169969343241
+Iteration 4, Errors: 309.86991600701936
+Iteration 5, Errors: 310.2034066557479
+Iteration 6, Errors: 310.5623760904597
+Iteration 7, Errors: 310.58742013526347
+Iteration 8, Errors: 310.58123212973214
+Iteration 9, Errors: 310.57600391134264
+Iteration 10, Errors: 310.58780563554416
+Ended. Iteration 11, Errors: 310.58780563554416
+Best errors: 290.122514627721
+Best k you choose: Our K-means clustering finished. Errors: 327.07495697400236
+
+-----Compared with sklearn-----
+Errors using scikit-learn: 763.01608967067%
+
+-----Time Used: 395.392071723938s-----

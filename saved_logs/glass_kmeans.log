@@ -1,0 +1,158 @@
+./data/glass/glass.csv (214, 10)
+        RI     Na    Mg    Al     Si     K    Ca   Ba   Fe  Type
+0  1.52101  13.64  4.49  1.10  71.78  0.06  8.75  0.0  0.0     1
+1  1.51761  13.89  3.60  1.36  72.73  0.48  7.83  0.0  0.0     1
+2  1.51618  13.53  3.55  1.54  72.99  0.39  7.78  0.0  0.0     1
+Index(['RI', 'Na', 'Mg', 'Al', 'Si', 'K', 'Ca', 'Ba', 'Fe', 'Type'], dtype='object')
+{2: 0, 1: 1, 7: 2, 3: 3, 5: 4, 6: 5}
+
+-----Statistics & Plots-----
+
+-----Algorithm Begins-----
+k=7, Round: 0
+Initial Errors: 391.45886581640275
+Iteration 0, Errors: 364.44450271869664
+Iteration 1, Errors: 359.6959040822218
+Iteration 2, Errors: 349.3605705833829
+Iteration 3, Errors: 342.8052845553971
+Iteration 4, Errors: 338.8025110588213
+Iteration 5, Errors: 337.0988889632244
+Iteration 6, Errors: 335.8832069760348
+Iteration 7, Errors: 335.6202609279529
+Iteration 8, Errors: 335.8759274068859
+Iteration 9, Errors: 335.3322705830022
+Iteration 10, Errors: 333.41093991224494
+Iteration 11, Errors: 324.812399567166
+Iteration 12, Errors: 322.00404349536404
+Iteration 13, Errors: 315.986016386669
+Iteration 14, Errors: 315.76673574899746
+Ended. Iteration 15, Errors: 315.76673574899746
+k=7, Round: 1
+Initial Errors: 444.67900681059103
+Iteration 0, Errors: 380.90746831658765
+Iteration 1, Errors: 335.6223157043898
+Iteration 2, Errors: 325.765980867175
+Iteration 3, Errors: 324.4322053479392
+Iteration 4, Errors: 324.11806621645684
+Iteration 5, Errors: 324.5815810477635
+Iteration 6, Errors: 324.90127417254206
+Iteration 7, Errors: 325.692650453038
+Iteration 8, Errors: 325.96650441925095
+Iteration 9, Errors: 326.5538616693013
+Iteration 10, Errors: 325.48971748446064
+Iteration 11, Errors: 321.416231150895
+Iteration 12, Errors: 319.4694462326363
+Iteration 13, Errors: 317.2265856159242
+Iteration 14, Errors: 316.0120910944
+Ended. Iteration 15, Errors: 316.0120910944
+k=7, Round: 2
+Initial Errors: 455.4805003053804
+Iteration 0, Errors: 409.7956138183592
+Iteration 1, Errors: 366.0057167961322
+Iteration 2, Errors: 334.2821718589865
+Iteration 3, Errors: 327.159103197754
+Iteration 4, Errors: 324.2897152649218
+Iteration 5, Errors: 320.9776776028748
+Iteration 6, Errors: 319.67718709625797
+Iteration 7, Errors: 317.4865679097838
+Iteration 8, Errors: 316.14419861812667
+Iteration 9, Errors: 315.896476587492
+Ended. Iteration 10, Errors: 315.896476587492
+k=7, Round: 3
+Initial Errors: 394.41844355637875
+Iteration 0, Errors: 386.5671798357484
+Iteration 1, Errors: 366.3232839180621
+Iteration 2, Errors: 345.73942781826946
+Iteration 3, Errors: 344.05803373227866
+Iteration 4, Errors: 343.77584168144466
+Iteration 5, Errors: 341.1411043056081
+Iteration 6, Errors: 335.3654871872435
+Iteration 7, Errors: 334.09792201690016
+Ended. Iteration 8, Errors: 334.09792201690016
+k=7, Round: 4
+Initial Errors: 385.1702502641668
+Iteration 0, Errors: 340.5021679679839
+Iteration 1, Errors: 330.9858805625176
+Iteration 2, Errors: 320.79231886394496
+Iteration 3, Errors: 318.5603072516368
+Iteration 4, Errors: 317.8282413292364
+Iteration 5, Errors: 317.502153050599
+Iteration 6, Errors: 317.45730050441273
+Iteration 7, Errors: 317.3547967844136
+Iteration 8, Errors: 317.12950325458075
+Iteration 9, Errors: 316.86044552719517
+Iteration 10, Errors: 316.5982215440189
+Ended. Iteration 11, Errors: 316.5982215440189
+k=7, Round: 5
+Initial Errors: 445.7059639695697
+Iteration 0, Errors: 388.0742745900509
+Iteration 1, Errors: 362.52805064928896
+Iteration 2, Errors: 357.4514467880436
+Iteration 3, Errors: 349.7756471670313
+Iteration 4, Errors: 339.9919840576431
+Iteration 5, Errors: 335.47781024127744
+Iteration 6, Errors: 334.9960464144365
+Iteration 7, Errors: 334.6109912859161
+Iteration 8, Errors: 334.48094692988917
+Ended. Iteration 9, Errors: 334.48094692988917
+k=7, Round: 6
+Initial Errors: 392.5385600572826
+Iteration 0, Errors: 337.71572369911456
+Iteration 1, Errors: 321.7583834966057
+Iteration 2, Errors: 318.3512311315372
+Iteration 3, Errors: 310.62172884846586
+Iteration 4, Errors: 310.560724550871
+Iteration 5, Errors: 310.3179555274576
+Iteration 6, Errors: 310.30123926044655
+Ended. Iteration 7, Errors: 310.30123926044655
+k=7, Round: 7
+Initial Errors: 434.4892411348091
+Iteration 0, Errors: 379.93702013460745
+Iteration 1, Errors: 371.82930313044875
+Iteration 2, Errors: 349.13873947996086
+Iteration 3, Errors: 337.50872167277095
+Iteration 4, Errors: 334.2509119163486
+Iteration 5, Errors: 331.5153306693666
+Iteration 6, Errors: 330.1949752222511
+Iteration 7, Errors: 328.0278335877206
+Iteration 8, Errors: 323.7009851624738
+Iteration 9, Errors: 319.84547673398833
+Iteration 10, Errors: 318.73014911806536
+Iteration 11, Errors: 319.1402718517811
+Iteration 12, Errors: 319.1580154201536
+Ended. Iteration 13, Errors: 319.1580154201536
+k=7, Round: 8
+Initial Errors: 402.1302075532226
+Iteration 0, Errors: 366.4711580397764
+Iteration 1, Errors: 340.0893456910053
+Iteration 2, Errors: 336.5937817174851
+Iteration 3, Errors: 328.80118875944163
+Iteration 4, Errors: 323.98511980876384
+Iteration 5, Errors: 323.7677558201379
+Iteration 6, Errors: 323.24748597724323
+Iteration 7, Errors: 323.1682505194287
+Ended. Iteration 8, Errors: 323.1682505194287
+k=7, Round: 9
+Initial Errors: 427.2596532967232
+Iteration 0, Errors: 397.63830769874556
+Iteration 1, Errors: 374.21911540521603
+Iteration 2, Errors: 344.7554298776573
+Iteration 3, Errors: 337.6038492016122
+Iteration 4, Errors: 332.2262769843221
+Iteration 5, Errors: 327.00112280523115
+Iteration 6, Errors: 325.13445278021453
+Iteration 7, Errors: 325.2382886031819
+Iteration 8, Errors: 325.85420282978185
+Iteration 9, Errors: 324.6634081371299
+Iteration 10, Errors: 320.392744380503
+Iteration 11, Errors: 318.71676233734485
+Iteration 12, Errors: 316.48660200965475
+Iteration 13, Errors: 314.07939450278036
+Ended. Iteration 14, Errors: 314.07939450278036
+Best errors: 310.30123926044655
+Our K-means clustering finished. Errors: 310.30123926044655
+
+-----Compared with sklearn-----
+Errors using scikit-learn: 679.1967363157636%
+
+-----Time Used: 112.11408615112305s-----

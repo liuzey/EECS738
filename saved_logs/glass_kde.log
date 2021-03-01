@@ -1,0 +1,15 @@
+./data/glass/glass.csv (214, 10)
+        RI     Na    Mg    Al     Si     K    Ca   Ba   Fe  Type
+0  1.52101  13.64  4.49  1.10  71.78  0.06  8.75  0.0  0.0     1
+1  1.51761  13.89  3.60  1.36  72.73  0.48  7.83  0.0  0.0     1
+2  1.51618  13.53  3.55  1.54  72.99  0.39  7.78  0.0  0.0     1
+Index(['RI', 'Na', 'Mg', 'Al', 'Si', 'K', 'Ca', 'Ba', 'Fe', 'Type'], dtype='object')
+{2: 0, 1: 1, 7: 2, 3: 3, 5: 4, 6: 5}
+
+-----Statistics & Plots-----
+
+-----Algorithm Begins-----
+
+-----Compared with sklearn-----
+
+-----Time Used: 50.87744975090027s-----
