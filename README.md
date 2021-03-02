@@ -88,6 +88,7 @@ python main.py zoo KDE
 python main.py zoo KMEANS -k 7
 ```
 * When **--optimized=True**, K is optimized across [1,9]. Elbow method is used to determine the best K.
+* We can judge the elbow at 5-6.
 
 ```bash
 python main.py zoo KMEANS -o 1
@@ -107,6 +108,7 @@ python main.py zoo KMEANS -o 1
 python main.py zoo GMM -k 7
 ```
 * When **--optimized=True**, K is optimized across [2,10]. Bayesian Information Criterion(BIC) is used to model performance and cost. Elbow method is used to determine the best K.
+* We can judge the elbow at 7.
 
 ```bash
 python main.py zoo GMM -o 1
@@ -134,6 +136,8 @@ Settings aligns with Zoo Dataset.
 ### K-means Clustering
 * Best errors: 310.30
 * Best errors by scikit-learn: 679.19
+* We can judge the elbow at 6-7.
+
 
 
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_KMEANS_elbow.png)
@@ -143,6 +147,8 @@ Settings aligns with Zoo Dataset.
 ### Gaussian Mixture Model
 * Best log-likelihood: 2.30
 * Best log-likelihood by scikit-learn (lower bounds): 0.39 
+* We can judge the elbow at 7.
+
 
 
 ![](https://github.com/liuzey/EECS738/blob/main/saved_fig/Glass_GMM_bic.png)
