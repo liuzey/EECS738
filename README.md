@@ -160,6 +160,7 @@ Settings aligns with Zoo Dataset.
 * KNN doesn't behave well for Glass Dataset. Reasons may be that the dataset is unbalanced.
 * Performance of KNN improves with K to avoid overfitting noises.
 * Optimized KMeans or GMM can be very time-consuming. [Here](https://github.com/liuzey/EECS738/blob/main/algorithms/gmm.py#L18) and [here](https://github.com/liuzey/EECS738/blob/main/algorithms/kmeans.py#L15) for modify settings. [Here](https://github.com/liuzey/EECS738/tree/main/saved_logs) for a quick view of training records.
+* There are some other problems, e.g. KMeans errors deviates from scikit-learn results, or BIC not strictly descending. This may be due to implementation flaws or inappropriate parameters.
 
 
 ## Schedule
