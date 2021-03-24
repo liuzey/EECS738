@@ -1,5 +1,4 @@
 # This is for Project1 - Probably Interesting Data in course EECS738 Machine Learning.
-# Written by Zeyan Liu (StudentID: 3001190).
 # Run command example: {python main.py iris KMEANS -k 3} or {python main.py zoo GMM -o True}
 
 import os
