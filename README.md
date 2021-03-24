@@ -1,5 +1,5 @@
 # EECS738 Project1 Probably Interesting Data
-EECS738 Machine Learning course project1 by Zeyan Liu. 
+EECS738 Machine Learning course project1. 
 
 Four methods are implemented: k-nearest neighbors (KNN), k-means clustering (KMEANS), kernel density estimation (KDE) and gaussian mixture model (GMM).
 
